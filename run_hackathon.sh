@@ -123,7 +123,7 @@ def main():
     run(
         [
             "python3",
-            "research/hackathon/build_spec.py",
+            "research/hackathon/create_mvp_spec.py",
             str(run_dir),
         ],
         "STEP 9 — BUILD HACKATHON SPECIFICATION",
