@@ -16,17 +16,15 @@ ROOT = Path(__file__).resolve().parent
 PIPELINE = ROOT / "run_hackathon.sh"
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 ALLOWED_USER_ID = os.environ.get("TELEGRAM_ALLOWED_USER_ID", "").strip()
-WEBHOOK_SECRET = os.environ.get("TELEGRAM_WEBHOOK_SECRET", "").strip()
 PORT = int(os.environ.get("PORT", "10000"))
 
-# Use Render's actual public service URL by default. If TELEGRAM_WEBHOOK_URL is
-# supplied, it must be a plain URL (not Markdown such as [url](url)).
+# Telegram webhook is intentionally configured without secret_token. This keeps
+# the deployment independent of a Render secret-token environment variable.
 PUBLIC_URL = os.environ.get("TELEGRAM_WEBHOOK_URL", "").strip()
 if not PUBLIC_URL:
     PUBLIC_URL = os.environ.get(
         "RENDER_EXTERNAL_URL", "https://hackathon-product-finder.onrender.com"
     ).strip()
-# Be defensive against accidentally pasted Markdown URLs in Render env vars.
 MARKDOWN_URL = re.fullmatch(r"\[([^\]]+)\]\((https?://[^)]+)\)", PUBLIC_URL)
 if MARKDOWN_URL:
     PUBLIC_URL = MARKDOWN_URL.group(2)
@@ -214,11 +212,6 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
             return
-        if WEBHOOK_SECRET and self.headers.get("X-Telegram-Bot-Api-Secret-Token", "") != WEBHOOK_SECRET:
-            print("Rejected webhook request: bad secret token")
-            self.send_response(403)
-            self.end_headers()
-            return
 
         length = int(self.headers.get("Content-Length", "0"))
         try:
@@ -238,15 +231,13 @@ class Handler(BaseHTTPRequestHandler):
 
 def configure_webhook():
     webhook_url = f"{PUBLIC_URL}/telegram/webhook"
-    payload = {"url": webhook_url}
-    if WEBHOOK_SECRET:
-        payload["secret_token"] = WEBHOOK_SECRET
-
     print(f"Configuring Telegram webhook: {webhook_url}")
     try:
         me = api("getMe")
         print(f"Telegram bot authenticated: {me}")
-        result = api("setWebhook", payload)
+        # Do not send secret_token. Telegram rejected the previous deployment's
+        # secret value before the HTTP server could even start.
+        result = api("setWebhook", {"url": webhook_url})
     except Exception as exc:
         print(f"ERROR: Telegram API request failed: {exc}")
         return False
