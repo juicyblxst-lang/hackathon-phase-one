@@ -132,19 +132,10 @@ def main():
     run(
         [
             "python3",
-            "research/hackathon/verify_spec.py",
+            "research/hackathon/verify_project.py",
             str(run_dir),
         ],
-        "STEP 10 — VERIFY SPECIFICATION",
-    )
-
-    run(
-        [
-            "python3",
-            "research/hackathon/pipeline_status.py",
-            str(run_dir),
-        ],
-        "STEP 11 — PIPELINE STATUS",
+        "STEP 10 — VERIFY MVP SPECIFICATION",
     )
 
     run(
@@ -165,7 +156,7 @@ def main():
         "STEP 13 — VERIFY PRODUCT PLAN",
     )
 
-    metadata["pipeline_status"] = "RESEARCH_COMPLETE"
+    metadata["pipeline_status"] = "PRODUCT_PLAN_COMPLETE"
 
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)

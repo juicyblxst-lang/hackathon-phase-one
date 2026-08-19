@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 import os
 import sys
@@ -8,150 +10,96 @@ def load_json(path):
         return json.load(f)
 
 
-def normalize(text):
-    return " ".join(str(text).lower().split())
-
-
-def fact_texts(facts, fact_type=None):
-    return [
-        fact.get("text", "")
-        for fact in facts
-        if fact_type is None or fact.get("fact_type") == fact_type
-    ]
-
-
-def contains_any(text, terms):
-    text = normalize(text)
-    return any(term in text for term in terms)
-
-
 def verify_project(run_dir):
-    facts_data = load_json(
-        os.path.join(run_dir, "records", "validated.json")
+    validated_path = os.path.join(
+        run_dir,
+        "records",
+        "validated.json",
     )
-    ideas_data = load_json(
-        os.path.join(run_dir, "records", "ideas.json")
+
+    spec_path = os.path.join(
+        run_dir,
+        "records",
+        "mvp_spec.json",
     )
+
+    if not os.path.exists(validated_path):
+        print("ERROR: validated.json missing.")
+        sys.exit(1)
+
+    if not os.path.exists(spec_path):
+        print("ERROR: mvp_spec.json missing.")
+        sys.exit(1)
+
+    facts_data = load_json(validated_path)
+    spec = load_json(spec_path)
 
     facts = facts_data.get("facts", [])
-    idea = ideas_data["ideas"][0]
-
-    requirements = [
-        f for f in facts
-        if f.get("fact_type") == "requirement"
-    ]
+    selected = spec.get("selected_idea", {})
 
     checks = []
 
-    for req in requirements:
-        text = req.get("text", "")
-        normalized = normalize(text)
+    checks.append({
+        "check": "validated_research_present",
+        "status": "PASS" if facts else "FAIL",
+        "evidence": f"{len(facts)} validated facts",
+    })
 
-        evidence = []
+    checks.append({
+        "check": "selected_product_present",
+        "status": "PASS" if selected else "FAIL",
+        "evidence": selected.get("name", ""),
+    })
 
-        # Memory/load-bearing gate
-        if contains_any(
-            normalized,
-            ["memory", "persist", "recall", "load-bearing"]
-        ):
-            memory = idea.get("memory_role", "")
+    required_sections = [
+        "product",
+        "memory",
+        "agent_loop",
+        "partner_stack",
+        "base_action",
+        "technical_scope",
+        "submission",
+        "demo_story",
+        "success_criteria",
+    ]
 
-            if memory:
-                status = "PASS"
-                evidence.append({
-                    "type": "idea",
-                    "field": "memory_role",
-                    "text": memory,
-                })
-            else:
-                status = "FAIL"
-
-        # Partner-stack requirements
-        elif contains_any(
-            normalized,
-            ["base", "virtuals", "partner stack", "partner"]
-        ):
-            partner = idea.get("partner_stack", "")
-
-            if partner:
-                status = "PASS"
-                evidence.append({
-                    "type": "idea",
-                    "field": "partner_stack",
-                    "text": partner,
-                })
-            else:
-                status = "REVIEW"
-
-        # Deployment requirements
-        elif "deploy" in normalized:
-            status = "REVIEW"
-            evidence.append({
-                "type": "missing_project_evidence",
-                "text": "Deployment evidence is not yet inspected.",
-            })
-
-        # Eligibility / legal / participant requirements
-        elif contains_any(
-            normalized,
-            ["18+", "eligibility", "sanctioned", "ip", "intellectual property"]
-        ):
-            status = "REVIEW"
-            evidence.append({
-                "type": "manual_review",
-                "text": "Participant/submission eligibility requires project-level verification.",
-            })
-
-        # Evidence / anti-wrapper requirements
-        elif contains_any(
-            normalized,
-            ["wrapper", "decorative", "fabricated evidence", "real execution"]
-        ):
-            status = "REVIEW"
-            evidence.append({
-                "type": "project_inspection_required",
-                "text": "Repository/runtime evidence is required to verify actual execution.",
-            })
-
-        else:
-            status = "REVIEW"
+    for section in required_sections:
+        value = spec.get(section)
 
         checks.append({
-            "requirement": text,
-            "status": status,
-            "evidence": evidence,
+            "check": f"mvp_spec_{section}",
+            "status": "PASS" if value not in (None, "", [], {}) else "FAIL",
+            "evidence": f"{section} present",
         })
 
-    passed = sum(c["status"] == "PASS" for c in checks)
-    failed = sum(c["status"] == "FAIL" for c in checks)
-    review = sum(c["status"] == "REVIEW" for c in checks)
+    passed = sum(
+        check["status"] == "PASS"
+        for check in checks
+    )
+
+    failed = sum(
+        check["status"] == "FAIL"
+        for check in checks
+    )
 
     result = {
-        "status": "VERIFIED",
-        "verification_version": "v2",
-        "idea": {
-            "idea_id": idea.get("idea_id"),
-            "name": idea.get("name"),
+        "status": "PASS" if failed == 0 else "FAIL",
+        "verification_version": "v3",
+        "product": {
+            "idea_id": selected.get("idea_id"),
+            "name": selected.get("name"),
         },
         "summary": {
-            "total_requirements": len(checks),
+            "validated_facts": len(facts),
+            "checks": len(checks),
             "passed": passed,
             "failed": failed,
-            "review": review,
         },
         "checks": checks,
         "limitations": [
-            "Repository implementation is not inspected yet.",
-            "Runtime execution is not inspected yet.",
-            "Deployment is not independently verified yet.",
-            "Submission artifacts are not independently verified yet.",
-        ],
-        "next_verification_layer": [
-            "repository evidence",
-            "dependency and integration inspection",
-            "runtime execution evidence",
-            "deployment verification",
-            "submission artifact verification",
+            "This verifies the generated MVP specification structure.",
+            "It does not claim that the product has been implemented.",
+            "Runtime, deployment, and external integrations require separate execution evidence.",
         ],
     }
 
@@ -162,17 +110,26 @@ def verify_project(run_dir):
     )
 
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
+        json.dump(
+            result,
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
 
-    print("PROJECT VERIFICATION COMPLETE")
+    print("MVP SPECIFICATION VERIFICATION COMPLETE")
     print()
-    print("Idea:", idea.get("name"))
-    print("Requirements:", len(checks))
+    print("Product:", selected.get("name"))
+    print("Validated facts:", len(facts))
+    print("Checks:", len(checks))
     print("Passed:", passed)
     print("Failed:", failed)
-    print("Review:", review)
     print()
+    print("Status:", result["status"])
     print("Saved:", output_path)
+
+    if result["status"] != "PASS":
+        sys.exit(1)
 
 
 def main():
