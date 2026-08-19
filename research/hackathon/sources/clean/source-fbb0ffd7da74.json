@@ -1,0 +1,13 @@
+{
+  "source_id": "source-fbb0ffd7da74",
+  "requested_url": "https://iana.org/domains/example",
+  "final_url": "http://www.iana.org/help/example-domains",
+  "retrieved_at": "2026-08-19T11:51:29.045760+00:00",
+  "source_categories": [
+    "unclassified"
+  ],
+  "priority": "low",
+  "domain": "iana.org",
+  "document_status": "CLEANED",
+  "text": "Example Domains\nDomains\nProtocols\nNumbers\nAbout\nInstructions and Guides\nExample Domains\nAs described in\nRFC 2606\nand\nRFC 6761\n, a\nnumber of domains such as example.com and example.org are maintained\nfor documentation purposes. These domains may be used as illustrative\nexamples in documents without prior coordination with us. They are not\navailable for registration or transfer.\nWe provide a web service on the example domain hosts to provide basic\ninformation on the purpose of the domain. These web services are\nprovided as best effort, but are not designed to support production\napplications. While incidental traffic for incorrectly configured\napplications is expected, please do not design applications that require\nthe example domains to have operating HTTP service.\nFurther Reading\nIANA-managed Reserved Domains\nLast revised\n2017-05-13\n.\nDomain Names\nRoot Zone Registry\n.INT Registry\n.ARPA Registry\nIDN Repository\nNumber Resources\nNumber Registries\nRIR Allocation Data\nAbuse Information\nProtocols\nProtocol Registries\nTime Zone Database\nAbout Us\nNews\nPerformance\nThe Organization\nArchive\nContact Us\nThe IANA functions coordinate the Internet’s globally unique identifiers, and\nare provided by\nPublic Technical Identifiers\n, an affiliate of\nICANN\n.\nPrivacy Policy\nTerms of Service"
+}

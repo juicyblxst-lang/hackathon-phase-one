@@ -1,0 +1,401 @@
+{
+  "status": "VERIFIED",
+  "verifier_version": "2.0",
+  "idea": {
+    "idea_id": "idea-001",
+    "name": "Persistent Research Agent"
+  },
+  "summary": {
+    "total_requirements": 22,
+    "passed": 9,
+    "failed": 0,
+    "review": 13
+  },
+  "categories": {
+    "memory_gate": {
+      "total": 7,
+      "pass": 7,
+      "fail": 0,
+      "review": 0
+    },
+    "anti_wrapper": {
+      "total": 2,
+      "pass": 2,
+      "fail": 0,
+      "review": 0
+    },
+    "partner": {
+      "total": 2,
+      "pass": 0,
+      "fail": 0,
+      "review": 2
+    },
+    "other": {
+      "total": 3,
+      "pass": 0,
+      "fail": 0,
+      "review": 3
+    },
+    "prize_eligibility": {
+      "total": 2,
+      "pass": 0,
+      "fail": 0,
+      "review": 2
+    },
+    "evidence": {
+      "total": 1,
+      "pass": 0,
+      "fail": 0,
+      "review": 1
+    },
+    "deployment": {
+      "total": 1,
+      "pass": 0,
+      "fail": 0,
+      "review": 1
+    },
+    "legal": {
+      "total": 2,
+      "pass": 0,
+      "fail": 0,
+      "review": 2
+    },
+    "entrant_eligibility": {
+      "total": 2,
+      "pass": 0,
+      "fail": 0,
+      "review": 2
+    }
+  },
+  "checks": [
+    {
+      "requirement": "Eligibility gate Memory must be load-bearing.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Your agent must recall and use persisted context in a fresh session.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "category": "anti_wrapper",
+      "status": "PASS",
+      "reason": "The proposed build contains substantive product execution rather than only a package import.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "engineering",
+          "text": "Agent runtime, persistent memory reads/writes, source ingestion, retrieval, session management, and a simple web interface."
+        },
+        {
+          "type": "idea",
+          "field": "product",
+          "text": "An agent that remembers prior research, sources, conclusions, and unresolved questions, then continues research from previous sessions."
+        }
+      ]
+    },
+    {
+      "requirement": "What judges need to see 01 Persist context that matters to the agent.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "First a pass/fail gate: Sibyl Memory must be load-bearing.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack.",
+      "category": "partner",
+      "status": "REVIEW",
+      "reason": "The requirement mentions Base, but the proposed project does not explicitly include it.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "partner_stack",
+          "text": "Sibyl Memory"
+        }
+      ]
+    },
+    {
+      "requirement": "Do I have to build on Base or Virtuals?",
+      "category": "partner",
+      "status": "REVIEW",
+      "reason": "The requirement mentions Base, but the proposed project does not explicitly include it.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "partner_stack",
+          "text": "Sibyl Memory"
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Memory is the only required stack.",
+      "category": "other",
+      "status": "REVIEW",
+      "reason": "The requirement has not yet been assigned a specialized verification rule.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0008",
+          "claim_id": "claim-0120",
+          "source_id": "source-56a790a8e16c",
+          "source_url": "https://hack.sibyllabs.org/",
+          "text": "Sibyl Memory is the only required stack."
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "category": "prize_eligibility",
+      "status": "REVIEW",
+      "reason": "This depends on entrant affiliation/status and cannot be established from the proposed project alone.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0009",
+          "claim_id": "claim-0134",
+          "source_id": "source-56a790a8e16c",
+          "source_url": "https://hack.sibyllabs.org/",
+          "text": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes."
+        }
+      ]
+    },
+    {
+      "requirement": "It comes before the rubric, and it disqualifies wrappers.",
+      "category": "anti_wrapper",
+      "status": "PASS",
+      "reason": "The proposed build contains substantive product execution rather than only a package import.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "engineering",
+          "text": "Agent runtime, persistent memory reads/writes, source ingestion, retrieval, session management, and a simple web interface."
+        },
+        {
+          "type": "idea",
+          "field": "product",
+          "text": "An agent that remembers prior research, sources, conclusions, and unresolved questions, then continues research from previous sessions."
+        }
+      ]
+    },
+    {
+      "requirement": "03 The gate: memory must be load-bearing + Sibyl Memory is load-bearing when your core function fails or materially degrades without it.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "If yes, it is not load-bearing, and it is disqualified.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Fabricated evidence is a disqualification, including after payout.",
+      "category": "evidence",
+      "status": "REVIEW",
+      "reason": "The checker must inspect the submitted evidence/artifacts before confirming this requirement.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0013",
+          "claim_id": "claim-0306",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "Fabricated evidence is a disqualification, including after payout."
+        }
+      ]
+    },
+    {
+      "requirement": "The second stack adds less on purpose, so a two-partner build cannot swamp the rubric or the PMF bonus.",
+      "category": "other",
+      "status": "REVIEW",
+      "reason": "The requirement has not yet been assigned a specialized verification rule.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0014",
+          "claim_id": "claim-0308",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "The second stack adds less on purpose, so a two-partner build cannot swamp the rubric or the PMF bonus."
+        }
+      ]
+    },
+    {
+      "requirement": "Deployment is the eligibility floor.",
+      "category": "deployment",
+      "status": "REVIEW",
+      "reason": "Deployment is a project-state requirement. The current idea record does not prove deployment.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0015",
+          "claim_id": "claim-0312",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "Deployment is the eligibility floor."
+        }
+      ]
+    },
+    {
+      "requirement": "It must include the fresh-session recall beat.",
+      "category": "memory_gate",
+      "status": "PASS",
+      "reason": "The idea explicitly makes persistent memory part of the core workflow.",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "09 Terms & eligibility + You keep all IP.",
+      "category": "legal",
+      "status": "REVIEW",
+      "reason": "This is a submission/legal declaration and cannot be verified from the project idea alone.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0017",
+          "claim_id": "claim-0321",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "09 Terms & eligibility + You keep all IP."
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible.",
+      "category": "prize_eligibility",
+      "status": "REVIEW",
+      "reason": "This depends on entrant affiliation/status and cannot be established from the proposed project alone.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0018",
+          "claim_id": "claim-0323",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible."
+        }
+      ]
+    },
+    {
+      "requirement": "Entrants must be 18+, excluding sanctioned jurisdictions.",
+      "category": "entrant_eligibility",
+      "status": "REVIEW",
+      "reason": "This requirement applies to the entrant, not the software project, so the checker cannot verify it from project metadata.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0019",
+          "claim_id": "claim-0324",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "Entrants must be 18+, excluding sanctioned jurisdictions."
+        }
+      ]
+    },
+    {
+      "requirement": "The Network School residency is non-transferable; if a winner cannot take it, it passes to the next rank.",
+      "category": "other",
+      "status": "REVIEW",
+      "reason": "The requirement has not yet been assigned a specialized verification rule.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0020",
+          "claim_id": "claim-0326",
+          "source_id": "source-6116a7ca64d7",
+          "source_url": "https://hack.sibyllabs.org/rules",
+          "text": "The Network School residency is non-transferable; if a winner cannot take it, it passes to the next rank."
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Labs You need to enable JavaScript to run this app.",
+      "category": "legal",
+      "status": "REVIEW",
+      "reason": "This is a submission/legal declaration and cannot be verified from the project idea alone.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0374",
+          "claim_id": "claim-0401",
+          "source_id": "source-960775dd85e0",
+          "source_url": "https://discord.com/invite/csya975jMa",
+          "text": "Sibyl Labs You need to enable JavaScript to run this app."
+        }
+      ]
+    },
+    {
+      "requirement": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action.",
+      "category": "entrant_eligibility",
+      "status": "REVIEW",
+      "reason": "This requirement applies to the entrant, not the software project, so the checker cannot verify it from project metadata.",
+      "evidence": [
+        {
+          "type": "hackathon_fact",
+          "fact_id": "fact-0375",
+          "claim_id": "claim-0507",
+          "source_id": "source-f93cc71acefa",
+          "source_url": "https://sibyllabs.org/",
+          "text": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action."
+        }
+      ]
+    }
+  ]
+}

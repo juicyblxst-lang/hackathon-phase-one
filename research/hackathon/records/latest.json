@@ -1,0 +1,46 @@
+{
+  "research_type": "hackathon",
+  "status": "RESEARCHED",
+  "researched_at": "2026-08-19T13:05:07.637438+00:00",
+  "source": {
+    "submitted_url": "https://sibyllabs.org/",
+    "final_url": "https://sibyllabs.org/",
+    "domain": "sibyllabs.org",
+    "title": "Memory & Infrastructure for Autonomous AI Agents · Sibyl Labs"
+  },
+  "hackathon": {
+    "name": "Memory & Infrastructure for Autonomous AI Agents · Sibyl Labs",
+    "organizer": null,
+    "deadline": null,
+    "start_date": null,
+    "end_date": null,
+    "eligibility": [],
+    "tracks": [],
+    "required_technologies": [],
+    "required_integrations": [],
+    "prizes": [],
+    "judging_criteria": [],
+    "submission_requirements": [],
+    "deployment_requirements": [],
+    "restrictions": []
+  },
+  "evidence": [],
+  "discovered_links": [
+    "https://agent-bench.xyz/",
+    "https://blog.sibylcap.com/",
+    "https://discord.gg/csya975jMa",
+    "https://github.com/Sibyl-Labs",
+    "https://sibylcap.com/",
+    "https://sibyllabs.org/",
+    "https://sibyllabs.org/agent",
+    "https://sibyllabs.org/brain",
+    "https://sibyllabs.org/cdn-cgi/l/email-protection",
+    "https://sibyllabs.org/get-started",
+    "https://sibyllabs.org/products",
+    "https://x.com/sibyl_labs_"
+  ],
+  "research_notes": [
+    "Initial page fetched successfully.",
+    "Hackathon facts require extraction from page content and linked official sources."
+  ]
+}

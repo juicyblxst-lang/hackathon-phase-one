@@ -1,0 +1,1997 @@
+{
+  "claim_count": 178,
+  "claims": [
+    {
+      "claim_id": "claim-69dc3f5c2ffd",
+      "claim": "Report md Golden suite Regression map for future Sibyl builds: core, dependent and paid API test groups.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a46ffade2ef8",
+      "claim": "Suite md Sibyl Scale365 retrieval 500 companies, 365 days, 191k final records and 350 category retrieval questions.",
+      "categories": [
+        "tracks"
+      ],
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-aa2e41a9936b",
+      "claim": "Why I test agent memory The starting point for this lab: Hermes, MCP, Codex, Claude Code, then the conviction that memory is becoming a product layer.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-6b5349f4b700",
+      "claim": "The code is considered well hardened for such a young project, but several points still need fixes.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-eafd5963cdad",
+      "claim": "Every action runs inside a rule register and hard safety rails, so an agent can operate unsupervised because the limits are enforced by the architecture, not by hoping it behaves.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-1f146479b6fd",
+      "source_url": "https://docs.sibyllabs.org",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-0f3915189da1",
+      "claim": "Leaderboard · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Leaderboard Lights up during judging.",
+      "categories": [
+        "judging",
+        "rules"
+      ],
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7efc127ccf2f",
+      "claim": "Scores appear after judging closes on Sep 12.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-b767ca71fc74",
+      "claim": "Standings appear after judging closes on Sep 12.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-cd1ad3b6bc05",
+      "claim": "Rank Team Partner stacks Score 01 02 03 04 05 awaiting judging · one leaderboard · top five paid Want your team on row one?",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-66d62bb363af",
+      "claim": "Sibyl Labs Hackathon: build with agents that don't forget Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Sibyl Labs Hackathon · Build Sep 1 to 10, 2026 Forgetting is a bug.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-4a0885b164e9",
+      "claim": "#2 on LongMemEval · 95.6% ↗ Register your team → How submissions work Registration opens Aug 16 · closes Aug 31, 23:59 UTC $10,000 prize pool x1.25 multiplier cap 2 partner stacks Sep 10 submission deadline Supported by Sibyl Labs Virtuals Protocol Partners One challenge.",
+      "categories": [
+        "deadline",
+        "prizes",
+        "submission",
+        "technology"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d60091aa5136",
+      "claim": "Every verified partner stack increases your Builder Score.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e652a4496614",
+      "claim": "Get in touch ↗ ↗ Onchain infrastructure for agent actions and transactions Brings Base rails, agentic payments, and builder support Verified stack Virtuals Protocol ↗ Runtime and coordination for autonomous agents Brings Agent-native infrastructure, coordination, and distribution Verified stack One challenge.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-2f5c8d92a5bf",
+      "claim": "Eligibility gate Memory must be load-bearing.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e79abf2c2123",
+      "claim": "Your agent must recall and use persisted context in a fresh session.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-730cb3e42804",
+      "claim": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-153e4ebefc31",
+      "claim": "The agent writes every message to a memory API but never reads it back to change what it does.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-cf78d9cec83d",
+      "claim": "What judges need to see 01 Persist context that matters to the agent.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-523225396b67",
+      "claim": "One score · one leaderboard Builder Score = Judge Score × Stack Multiplier Two stages.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-fff6da45dc81",
+      "claim": "First a pass/fail gate: Sibyl Memory must be load-bearing.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ad0e37b88dc6",
+      "claim": "Then judges score a 100-point rubric, a genuine product-market-fit (PMF) bonus adds up to 10, and verified partner stacks lift the total, up to x1.25.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-35afc65c4629",
+      "claim": "100-pt rubric + 10 PMF bonus = 110 max, before multiplier Memory is load-bearing 40 Innovation & originality 25 Technical execution 20 Pitch & presentation 15 PMF bonus + 10 View the full rules + Verified partner stacks Multiplier 0 x1.00 1 x1.15 2 x1.25 (cap) A stack counts only when judges confirm it is doing real work in the submitted build.",
+      "categories": [
+        "judging",
+        "rules"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-4b84da9b0341",
+      "claim": "Builder Score: 102.5 .",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-5f4e8b1d4e15",
+      "claim": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack.",
+      "categories": [
+        "rules",
+        "technology"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c30264739b86",
+      "claim": "0 verified stacks → x1.00 82 Builder Score on the 82 -point example Prizes Winners get backed.",
+      "categories": [
+        "judging",
+        "prizes"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c7a0bb0f6c71",
+      "claim": "Register your team → sibyl · oracle terminal sibyl @hackathon: ~ $ cat prizes.txt $ 0 total prize pool 01 $4,000 USDC on Base + Network School residency 02 $2,500 USDC on Base + one entry into a Base Support Program 03 $1,500 USDC on Base 04 $1,000 USDC on Base 05 $1,000 USDC on Base sibyl @hackathon: ~ $ How it runs Aug 16 to 31 Registration Register your team before the build window opens.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-72fe60dc2bf9",
+      "claim": "Sep 1 to 10 Build window Ten days to build and submit an agent with persistent memory.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d2bb0e9fc318",
+      "claim": "Sep 5 to 7 Partner workshops Live sessions with Base and Virtuals Protocol.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-fe1ccc96c0b0",
+      "claim": "Sep 11 to 12 Judging Projects are reviewed and scored on one leaderboard.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-208286196c61",
+      "claim": "Entry is free, and prizes pay in USDC on Base.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f66ee2b3165e",
+      "claim": "Sibyl Memory is the only required stack.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-6556db43c5bd",
+      "claim": "Base and Virtuals are optional and add a scoring multiplier when a judge can see them doing real work in your demo.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-682870c44410",
+      "claim": "Prizes pay in USDC on Base, and if you have never held crypto we help winners set up a wallet at payout.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-413c1370131d",
+      "claim": "Who can enter?",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-201f4c8913ff",
+      "claim": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-2dbba4f1c8a2",
+      "claim": "What do I submit?",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-9796b2b6c194",
+      "claim": "That guard uses no AI, doesn't guess, and can't be talked out of its rules.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f282607ccc0c",
+      "claim": "Compliance, enforced A deterministic gate checks every action against your rules before it runs.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a7851045b81d",
+      "claim": "Rules · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Rules The full rules.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-4bb8dd65f613",
+      "claim": "Everything that decides your score, in order.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-15e7b9c7b201",
+      "claim": "On this page 01 Timeline 02 Two stages, in order 03 The gate 04 The rubric 05 PMF bonus 06 Partner multiplier 07 Prizes 08 What to submit 09 Terms & eligibility 10 Utility over slop On this page Timeline Two stages, in order The gate The rubric PMF bonus Partner multiplier Prizes What to submit Terms & eligibility Utility over slop 01 Timeline + Aug 16 to 31 Registration Register your team before the build window opens.",
+      "categories": [
+        "eligibility",
+        "prizes",
+        "submission"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-6ecee59a694c",
+      "claim": "Sep 1 to 10 Build window Ten days to build and submit an agent with persistent memory.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-cb225b27bd53",
+      "claim": "Sep 5 to 7 Partner workshops Live sessions with Base and Virtuals Protocol.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8090b8147f74",
+      "claim": "Sep 11 to 12 Judging Projects are reviewed and scored on one leaderboard.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8da439056278",
+      "claim": "02 Two stages, in order + Judging runs in order and the stages do not blend.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c208e3eb5c49",
+      "claim": "Then a 100-point rubric, a PMF bonus, and a partner multiplier.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f00e8f3f7702",
+      "claim": "Final score = (rubric + PMF bonus) × multiplier.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7c00c2fd53e2",
+      "claim": "Every project is reviewed by a panel of judges.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c7cd9c5958b5",
+      "claim": "Rubric and PMF scores are the mean of the judges who passed you through the gate.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f7c3bf140410",
+      "claim": "03 The gate: memory must be load-bearing + Sibyl Memory is load-bearing when your core function fails or materially degrades without it.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d0804357e18c",
+      "claim": "The litmus test judges apply: delete the Sibyl Memory layer.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-660382e2efd0",
+      "claim": "The README points to where memory is written and read; a judge can find them in under two minutes.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a87609208f91",
+      "claim": "04 The rubric (100 points) + Only projects that pass the gate are scored.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a08f776213df",
+      "claim": "Each criterion is scored to its max; the sum is the rubric score.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d1a52082a403",
+      "claim": "Survives a second run and a curious judge.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ce920211fbaa",
+      "claim": "05 The PMF bonus (up to +10) + A build that solves a real pain point for a real audience earns bonus points on top of the rubric.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e64d3fbfbb54",
+      "claim": "Genuine means evidenced: a named audience with a validated pain point, a waitlist or design partners, real usage, or pilots.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7210fb9582b7",
+      "claim": "Any nonzero bonus needs a publicly verifiable artifact a judge can check in five minutes.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-38b953202ed3",
+      "claim": "06 The partner multiplier + Verified partner stacks lift your score on a diminishing schedule: +15% for the first, +10% for the second, capped at x1.25 .",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-0b7c9bda386b",
+      "claim": "A stack counts only when a judge can see it doing real work in the demo, serving the product’s actual function.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-407be805627f",
+      "claim": "Deployment is the eligibility floor.",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7f884bcb0fc0",
+      "claim": "An ACP job, a registered or transacting agent, or another Virtuals-native integration exercised in the demo.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-57df9d7fe671",
+      "claim": "07 Prizes + $10,000 in USDC across the top five.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-28ac844225c8",
+      "claim": "01 $4,000 USDC on Base + Network School residency 02 $2,500 USDC on Base + one entry into a Base Support Program 03 $1,500 USDC on Base 04 $1,000 USDC on Base 05 $1,000 USDC on Base 08 What to submit + A public GitHub repo under an OSI-approved license (MIT or Apache-2.0), with real commit history.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-13f7c4eccfac",
+      "claim": "It must include the fresh-session recall beat.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-828b3b1d9cb8",
+      "claim": "09 Terms & eligibility + You keep all IP.",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-df546e202a48",
+      "claim": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-245757d5cab7",
+      "claim": "Entrants must be 18+, excluding sanctioned jurisdictions.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f460ac77f7b9",
+      "claim": "Prizes pay in USDC on Base; to receive one, winners provide payout details, and top-five teams join a short case-study interview.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c0b78160e54b",
+      "claim": "Know the rules, grab your team, and claim your spot on the leaderboard.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-260da105ebd6",
+      "claim": "It tests whether a system can remember facts, track updates, reason about time, and recall preferences across extended multi-session conversations.",
+      "categories": [
+        "tracks"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d71d73d4794c",
+      "claim": "Judges and generator models vary across entries.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ba465b3923b5",
+      "claim": "# System Score Architecture 1 agentmemory V4 96.2% BM25 + vector hybrid 2 SIBYL (Opus) 95.6% Hierarchical file memory file 2 Chronos (PwC) 95.6% unknown 4 Mastra Observational Memory 94.9% Vector + LLM extraction vector 5 SIBYL (Sonnet) 93.6% Hierarchical file memory file 6 Backboard 93.4% unknown 7 OMEGA 93.2% bge-small ONNX vector 8 Hindsight (Vectorize) 91.4% Semantic + BM25 hybrid 9 HydraDB 90.8% closed 10 Appleseed Memory 90.2% open 11 Neutrally 89.4% unknown 12 sociomemory 86.6% 10-step RAG vector 13 Emergence AI 86.0% RAG vector 14 Supermemory 85.9% Cloud embeddings vector Full-context GPT-4o (baseline) 60.2% Entire history in context Per-category breakdown LongMemEval tests six question categories.",
+      "categories": [
+        "judging",
+        "tracks"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-6b70d5e20fc8",
+      "claim": "v1 Sonnet v2 Sonnet v2 Opus session-user 95.7% 100% session-assistant 92.9% 100% temporal-reasoning 75.2% 94.7% 96.2% knowledge-update 94.9% 96.2% 92.3% multi-session 90.1% 88% 93.2% preference 70% 80% 93.3% Category v1 Sonnet v2 Sonnet v2 Opus n single-session-user 95.7% 100% 70 single-session-assistant 92.9% 100% 56 temporal-reasoning 75.2% 94.7% 96.2% 133 knowledge-update 94.9% 96.2% 92.3% 78 multi-session 90.1% 88.0% 93.2% 133 single-session-preference 70.0% 80.0% 93.3% 30 Overall 86.7% 93.6% 95.6% 500 What changed between v1 and v2 v1 scored 86.7%.",
+      "categories": [
+        "tracks"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-4e02cac0c619",
+      "claim": "The weakest category was temporal reasoning at 75.2%.",
+      "categories": [
+        "tracks"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-83cb38164865",
+      "claim": "When we re-ran the benchmark after this change, the score jumped.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-1a1bf7399e63",
+      "claim": "When your system is already producing correct answers but wrapping them in unnecessary reasoning, you are paying for tokens that add no value and actively interfere with downstream evaluation.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-fa571f869988",
+      "claim": "The overall score went from 86.7% to 95.6% .",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-877b190db875",
+      "claim": "The evaluation just could not see it through the noise.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7c0d6c6ff133",
+      "claim": "Teams building autonomous agents can license the memory infrastructure through SIBYL's agent framework , which ships this system as a core module.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8622be0f435a",
+      "claim": "Vector DB + embedding API Additional infra cost None $19 to $249+/mo Update latency Instant (file edit) Re-embed chunks Portability Any system, any LLM Locked to embedding model LongMemEval 95.6% 60-91% What this does not prove This benchmark measures answer accuracy on a specific dataset with a specific evaluation methodology.",
+      "categories": [
+        "judging",
+        "technology"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-1e2850184a11",
+      "claim": "Community results are self-reported with varying judges and generator models.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3400317e5d10",
+      "claim": "Judge model matters.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f482b5395b03",
+      "claim": "SIBYL uses Claude as both the answering model and the evaluation judge for preference questions.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e089426ee20c",
+      "claim": "Judge choice affects scores.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-dfa5175dca12",
+      "claim": "Other systems on this leaderboard may have similar hidden accuracy that their evaluation pipeline is not capturing.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-20d781d3169d",
+      "claim": "Anyone can re-score.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d03ef868ac67",
+      "claim": "Test conditions Dataset LongMemEval Oracle (ICLR 2025, University of Michigan) Questions 500 total, 6 categories Models Claude Opus 4.6 (v2), Claude Sonnet (v2) Hardware 4 vCPU / 16GB RAM (AWS) Architecture SIBYL file-based memory (proprietary) v1 baseline Claude Sonnet, verbose output format v2 upgrade Both models, concise output format (reduced false negatives) Scoring Programmatic v3 matcher (substring, number, off-by-one tolerance, abstention detection, phrase overlap) with manual review of every flagged incorrect answer.",
+      "categories": [
+        "tracks"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-198f72e9dccb",
+      "claim": "Preference questions judged using official LongMemEval rubric criteria.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-83426a7423c0",
+      "claim": "Raw data All hypotheses and per-question judgments published below.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3a4ac31ccce1",
+      "claim": "Sources LongMemEval (ICLR 2025) Observational Memory (Mastra) Emergence AI Hindsight Benchmark Mem0 State of Agent Memory 2026 Raw data Every model answer and every scoring judgment is published here.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-9b596fa43022",
+      "claim": "Re-score us yourself.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-43e5ee79cf37",
+      "claim": "Opus answers hypotheses-opus.jsonl Sonnet answers hypotheses-sonnet.jsonl Opus judgments scores-opus.jsonl Sonnet judgments scores-sonnet.jsonl Opus summary scores-opus-summary.json Sonnet summary scores-sonnet-summary.json Share Share on X SIBYL blog @sibylcap",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-286531a9e976",
+      "claim": "Sibyl Labs Hackathon: build with agents that don't forget Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Sibyl Labs Hackathon · Build Sep 1 to 10, 2026 Forgetting is a bug.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-bcdf51b37848",
+      "claim": "#2 on LongMemEval · 95.6% ↗ Register your team → How submissions work Registration opens Aug 16 · closes Aug 31, 23:59 UTC $10,000 prize pool x1.25 multiplier cap 2 partner stacks Sep 10 submission deadline Supported by Sibyl Labs Virtuals Protocol Partners One challenge.",
+      "categories": [
+        "deadline",
+        "prizes",
+        "submission",
+        "technology"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-de1fdbab7b50",
+      "claim": "Every verified partner stack increases your Builder Score.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-01e387ae932c",
+      "claim": "Get in touch ↗ ↗ Onchain infrastructure for agent actions and transactions Brings Base rails, agentic payments, and builder support Verified stack Virtuals Protocol ↗ Runtime and coordination for autonomous agents Brings Agent-native infrastructure, coordination, and distribution Verified stack One challenge.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3ab9c3558b2d",
+      "claim": "Eligibility gate Memory must be load-bearing.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-2c5eb6a4b160",
+      "claim": "Your agent must recall and use persisted context in a fresh session.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e112ce93b0c6",
+      "claim": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3b5673996fac",
+      "claim": "The agent writes every message to a memory API but never reads it back to change what it does.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c0af65b5a93a",
+      "claim": "What judges need to see 01 Persist context that matters to the agent.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-6f99c5a1d0fa",
+      "claim": "One score · one leaderboard Builder Score = Judge Score × Stack Multiplier Two stages.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8d1f0dfdaade",
+      "claim": "First a pass/fail gate: Sibyl Memory must be load-bearing.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-24111a78105c",
+      "claim": "Then judges score a 100-point rubric, a genuine product-market-fit (PMF) bonus adds up to 10, and verified partner stacks lift the total, up to x1.25.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-04cf2360c5c9",
+      "claim": "100-pt rubric + 10 PMF bonus = 110 max, before multiplier Memory is load-bearing 40 Innovation & originality 25 Technical execution 20 Pitch & presentation 15 PMF bonus + 10 View the full rules + Verified partner stacks Multiplier 0 x1.00 1 x1.15 2 x1.25 (cap) A stack counts only when judges confirm it is doing real work in the submitted build.",
+      "categories": [
+        "judging",
+        "rules"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7780680444d8",
+      "claim": "Builder Score: 102.5 .",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-bbfc6bf1b6a2",
+      "claim": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack.",
+      "categories": [
+        "rules",
+        "technology"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7605e4dede27",
+      "claim": "0 verified stacks → x1.00 82 Builder Score on the 82 -point example Prizes Winners get backed.",
+      "categories": [
+        "judging",
+        "prizes"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-4589e712a754",
+      "claim": "Register your team → sibyl · oracle terminal sibyl @hackathon: ~ $ cat prizes.txt $ 0 total prize pool 01 $4,000 USDC on Base + Network School residency 02 $2,500 USDC on Base + one entry into a Base Support Program 03 $1,500 USDC on Base 04 $1,000 USDC on Base 05 $1,000 USDC on Base sibyl @hackathon: ~ $ How it runs Aug 16 to 31 Registration Register your team before the build window opens.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-93307ee989bb",
+      "claim": "Sep 1 to 10 Build window Ten days to build and submit an agent with persistent memory.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a63c12d46585",
+      "claim": "Sep 5 to 7 Partner workshops Live sessions with Base and Virtuals Protocol.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-4814c9813231",
+      "claim": "Sep 11 to 12 Judging Projects are reviewed and scored on one leaderboard.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-98d4d17ada22",
+      "claim": "Entry is free, and prizes pay in USDC on Base.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-57b5f973c5f6",
+      "claim": "Sibyl Memory is the only required stack.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3934addf6a97",
+      "claim": "Base and Virtuals are optional and add a scoring multiplier when a judge can see them doing real work in your demo.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-9757254a67c7",
+      "claim": "Prizes pay in USDC on Base, and if you have never held crypto we help winners set up a wallet at payout.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-0a2c19cab572",
+      "claim": "Who can enter?",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-b218d9ed4ca0",
+      "claim": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-07f6d62cee09",
+      "claim": "What do I submit?",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-695dc9ee63f2",
+      "source_url": "https://hack.sibyllabs.org/#scoring",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-74b370374736",
+      "claim": "Built by Coinbase, trusted by leading institutions, and open to all.",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-73bbb82e5241",
+      "source_url": "https://www.base.org",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-5102b33505e5",
+      "claim": "Virtuals Protocol | Society of AI Agents Pillars Project Highlights Research About Us Pillars Project Highlights Research About Us Open App A society of AI agents.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-c1f934cca04d",
+      "claim": "05 Law & Governance Agents need alignment, rules, and enforcement.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e7c55025bd21",
+      "claim": "Egocentric Data In-the-Wild Teleoperation Data VLA / WAM Physical BPO Real-World Deployment Visit Eastworlds Total Robotic Marketcap 0 Robotic Fleet Size 31 Residents 23 No residents yet 03 Agent Commerce Protocol (ACP) The marketplace where agents hire agents.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a7c0563d4b75",
+      "claim": "Agent Registry Job Specification Standard ERC-8183 Trustless Escrow X402 Neutral Evaluation Explore Agent Offerings TOTAL AGDP 0 TOTAL AGENT REVENUE 0 TOTAL JOBS COMPLETED 0 TOTAL UNIQUE ACTIVE WALLETS 30D 7D 30D 0 04 Capital Markets The Wall Street of autonomous agents.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-89924841319c",
+      "claim": "Alignment, safety, dispute resolution, resource allocation, and protocol integrity — the institutions that keep an autonomous economy honest.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e1ea81ef27d4",
+      "claim": "Oct 16, 2025 Virtuals & ACP – Open Coordination for Digital Labor by Delphi Digital Delphi Digital’s report highlights the Virtuals Agent Commerce Protocol (ACP) as an open coordination layer that enables AI agents to autonomously exchange digital labor, transforming siloed AI into a unified, interoperable economy of specialized machine workers.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a289601f033f",
+      "claim": "Oct 27, 2025 Virtuals Protocol – Growing Agentic GDP by Fundstrat FSInsight’s report positions Virtuals Protocol as the \"Stripe for AI Agents,\" providing the essential blockchain infrastructure for a trillion-dollar economy where autonomous machines generate, manage, and grow \"Agentic GDP.\" Sep 17, 2025 Understanding Virtuals Protocol: A Comprehensive Overview by Messari Virtuals Protocol operationalizes autonomous AI agents through onchain coordination standards and tokenized incentive mechanisms, supporting scalable applications across various services.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-978ebd5425ef",
+      "claim": "Nov 15, 2024 Virtuals Protocol, 생산적인 온체인 AI 에이전트 런치패드 by Four Pillars 버츄얼스 프로토콜은 AI 에이전트를 단순한 챗봇을 넘어 스스로 수익을 창출하고 자산을 관리하는 '온체인 기업'으로 진화시키며, 누구나 AI 대중화의 결실을 공유할 수 있는 분산형 AI 공동 소유 경제 생태계를 구축하고 있습니다.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-5d1aecc8973b",
+      "claim": "Jul 04, 2025 以太坊不再缺席，Virtuals ACP 打开 AI 万亿经济之门 by Tech Flow 深潮 TechFlow 的报告深度解析了 Virtuals Protocol 如何通过“创世启动”与“积分激励”双轮驱动，构建一套让忠实持有者优先捕获高倍率 AI 代理资产的生态增长模型。 Jul 08, 2025 버추얼 프로토콜, 1조 달러 시장을 여는 에이전트 경제의 출발점 by Tiger Research 타이거 리서치(Tiger Research)는 버츄얼스 프로토콜의 ACP를 AI 에이전트 간의 자율적인 상호작용과 결제를 지원하는 핵심 인프라로 정의하며, 이를 통해 파편화된 AI 생태계를 통합하고 거대한 '에이전틱 경제(Agentic Economy)'를 구축하는 표준 프로토콜이 될 것이라 분석했습니다.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7913d4c56627",
+      "claim": "Dec 20, 2024 Virtuals is building the co-ownership layer for AI agents by Cerebral Valley Virtuals Protocol is building a decentralized \"Co-Ownership Layer\" that transforms AI agents into autonomous, tokenized businesses capable of generating revenue and managing their own capital on the blockchain.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-44a13da24b1a",
+      "claim": "Oct 17, 2025 Virtuals Protocol: The Economic Engine for Autonomous AI by Blocmates The blocmates explainer illustrates how Virtuals Protocol acts as the \"Shopify for AI agents,\" providing a no-code launchpad and economic framework that turns autonomous machines into tokenized, revenue-earning businesses.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-cc243a8e33b9",
+      "claim": "Aug 12, 2025 Virtuals ACP: Markets for Machines by Chain Of Thought The Agent Commerce Protocol (ACP) creates a trustless, on-chain marketplace that enables AI agents to autonomously discover, hire, and pay one another through a standardized system of verifiable contracts and automated quality evaluation.",
+      "categories": [
+        "judging",
+        "technology"
+      ],
+      "source_id": "source-a63e41d5481c",
+      "source_url": "https://www.virtuals.io",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8945d6a998df",
+      "claim": "Submissions · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Submissions Submit from your build page.",
+      "categories": [
+        "rules",
+        "submission"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-84f9a2e152b5",
+      "claim": "The private link you got when you registered is your submission.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ac8c7ff62de1",
+      "claim": "build window: Sep 1 to Sep 10 What a finished submission includes Four things.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-d46add639b92",
+      "claim": "One rubric · one leaderboard How judging works Projects clear a pass/fail gate, then score against four weighted criteria.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f0ac16268e70",
+      "claim": "Survives a second run and a curious judge.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-9024da84c69a",
+      "claim": "Verified partner stacks then multiply the weighted score, up to x1.25 .",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-aa457e576d98",
+      "claim": "See how the Builder Score works → View the full rules + Not registered yet?",
+      "categories": [
+        "judging",
+        "rules"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-a2d455479bc3",
+      "claim": "Only registered teams can submit.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-90a05cba5eef",
+      "claim": "Register · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Register Claim your spot.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e53f85ba11cb",
+      "claim": "Partner-stack interests are optional and can change before submission.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-634593906626",
+      "claim": "Register Aug 16 to 31, 2026 Build Sep 1 to 10, 2026 Where Online Prizes $10,000 Cost Free What happens next Confirmation Your team is on the list the moment you register.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-465fb9295dcd",
+      "claim": "Final integrations are declared with your submission.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-710dcda7d5bd",
+      "claim": "Base Onchain infrastructure for agent actions and transactions Virtuals Protocol Runtime and coordination for autonomous agents What are you thinking of building?",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-bfba54262c69",
+      "claim": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-ce9b31c66ac8",
+      "source_url": "https://sibyllabs.org",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8fc20485a795",
+      "claim": "A rule-breaking action never runs.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-ce9b31c66ac8",
+      "source_url": "https://sibyllabs.org",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-030a52b9ee5b",
+      "claim": "Sibyl Labs Hackathon: build with agents that don't forget Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Sibyl Labs Hackathon · Build Sep 1 to 10, 2026 Forgetting is a bug.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-9abb1d4c9caf",
+      "claim": "#2 on LongMemEval · 95.6% ↗ Register your team → How submissions work Registration opens Aug 16 · closes Aug 31, 23:59 UTC $10,000 prize pool x1.25 multiplier cap 2 partner stacks Sep 10 submission deadline Supported by Sibyl Labs Virtuals Protocol Partners One challenge.",
+      "categories": [
+        "deadline",
+        "prizes",
+        "submission",
+        "technology"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-31f0afe27290",
+      "claim": "Every verified partner stack increases your Builder Score.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-b96163defc09",
+      "claim": "Get in touch ↗ ↗ Onchain infrastructure for agent actions and transactions Brings Base rails, agentic payments, and builder support Verified stack Virtuals Protocol ↗ Runtime and coordination for autonomous agents Brings Agent-native infrastructure, coordination, and distribution Verified stack One challenge.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ceea598f1deb",
+      "claim": "Eligibility gate Memory must be load-bearing.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f3cbf096a78b",
+      "claim": "Your agent must recall and use persisted context in a fresh session.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3aebd32366a2",
+      "claim": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-24150d254094",
+      "claim": "The agent writes every message to a memory API but never reads it back to change what it does.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-97af34b34193",
+      "claim": "What judges need to see 01 Persist context that matters to the agent.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ca7d8aae3e44",
+      "claim": "One score · one leaderboard Builder Score = Judge Score × Stack Multiplier Two stages.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7835d8470499",
+      "claim": "First a pass/fail gate: Sibyl Memory must be load-bearing.",
+      "categories": [
+        "eligibility",
+        "rules"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-9bdffee2b920",
+      "claim": "Then judges score a 100-point rubric, a genuine product-market-fit (PMF) bonus adds up to 10, and verified partner stacks lift the total, up to x1.25.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-418e1884780b",
+      "claim": "100-pt rubric + 10 PMF bonus = 110 max, before multiplier Memory is load-bearing 40 Innovation & originality 25 Technical execution 20 Pitch & presentation 15 PMF bonus + 10 View the full rules + Verified partner stacks Multiplier 0 x1.00 1 x1.15 2 x1.25 (cap) A stack counts only when judges confirm it is doing real work in the submitted build.",
+      "categories": [
+        "judging",
+        "rules"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-3e566b850615",
+      "claim": "Builder Score: 102.5 .",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-e8fce1d3a031",
+      "claim": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack.",
+      "categories": [
+        "rules",
+        "technology"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-76d54feca45e",
+      "claim": "0 verified stacks → x1.00 82 Builder Score on the 82 -point example Prizes Winners get backed.",
+      "categories": [
+        "judging",
+        "prizes"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-7be62ac76c81",
+      "claim": "Register your team → sibyl · oracle terminal sibyl @hackathon: ~ $ cat prizes.txt $ 0 total prize pool 01 $4,000 USDC on Base + Network School residency 02 $2,500 USDC on Base + one entry into a Base Support Program 03 $1,500 USDC on Base 04 $1,000 USDC on Base 05 $1,000 USDC on Base sibyl @hackathon: ~ $ How it runs Aug 16 to 31 Registration Register your team before the build window opens.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-66a0dd610e84",
+      "claim": "Sep 1 to 10 Build window Ten days to build and submit an agent with persistent memory.",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f431dfadc579",
+      "claim": "Sep 5 to 7 Partner workshops Live sessions with Base and Virtuals Protocol.",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8c91df583c6b",
+      "claim": "Sep 11 to 12 Judging Projects are reviewed and scored on one leaderboard.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ed14f1e532d9",
+      "claim": "Entry is free, and prizes pay in USDC on Base.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f19b54fd3652",
+      "claim": "Sibyl Memory is the only required stack.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-b67aac16e778",
+      "claim": "Base and Virtuals are optional and add a scoring multiplier when a judge can see them doing real work in your demo.",
+      "categories": [
+        "judging"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-ce38ca6d101b",
+      "claim": "Prizes pay in USDC on Base, and if you have never held crypto we help winners set up a wallet at payout.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-f955b612db9f",
+      "claim": "Who can enter?",
+      "categories": [
+        "eligibility"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-0678abf66dab",
+      "claim": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "categories": [
+        "prizes"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-b01ac6711427",
+      "claim": "What do I submit?",
+      "categories": [
+        "submission"
+      ],
+      "source_id": "source-df82d5ae02a8",
+      "source_url": "https://hack.sibyllabs.org/#main-content",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-739011c075ae",
+      "claim": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-8053f3fc73f0",
+      "claim": "A rule-breaking action never runs.",
+      "categories": [
+        "rules"
+      ],
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "claim-0ea8235a2b0e",
+      "claim": "Domain Names Root Zone Registry .INT Registry .ARPA Registry IDN Repository Number Resources Number Registries RIR Allocation Data Abuse Information Protocols Protocol Registries Time Zone Database About Us News Performance The Organization Archive Contact Us The IANA functions coordinate the Internet’s globally unique identifiers, and are provided by Public Technical Identifiers , an affiliate of ICANN .",
+      "categories": [
+        "technology"
+      ],
+      "source_id": "source-fbb0ffd7da74",
+      "source_url": "http://www.iana.org/help/example-domains",
+      "confidence": null,
+      "verification_status": "UNVERIFIED"
+    }
+  ]
+}

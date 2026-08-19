@@ -1,0 +1,113 @@
+{
+  "status": "FINAL_VERDICT",
+  "verdict": "FAIL",
+  "reason": "One or more requirements failed.",
+  "summary": {
+    "total_requirements": 22,
+    "passed": 13,
+    "failed": 9,
+    "review": 0
+  },
+  "runtime_gate": {
+    "status": "PASS",
+    "passed": true,
+    "returncode": 0
+  },
+  "agent_safety": {
+    "requirements": 1,
+    "passed": 1
+  },
+  "failed_requirements": [
+    {
+      "fact_id": "fact-0003",
+      "requirement": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0009",
+      "requirement": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0010",
+      "requirement": "It comes before the rubric, and it disqualifies wrappers.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0013",
+      "requirement": "Fabricated evidence is a disqualification, including after payout.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0017",
+      "requirement": "09 Terms & eligibility + You keep all IP.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0018",
+      "requirement": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0019",
+      "requirement": "Entrants must be 18+, excluding sanctioned jurisdictions.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0020",
+      "requirement": "The Network School residency is non-transferable; if a winner cannot take it, it passes to the next rank.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0374",
+      "requirement": "Sibyl Labs You need to enable JavaScript to run this app.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    }
+  ],
+  "review_requirements": []
+}

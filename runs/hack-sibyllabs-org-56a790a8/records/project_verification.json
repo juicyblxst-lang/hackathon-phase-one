@@ -1,0 +1,240 @@
+{
+  "status": "VERIFIED",
+  "verification_version": "v2",
+  "idea": {
+    "idea_id": "idea-001",
+    "name": "Persistent Research Agent"
+  },
+  "summary": {
+    "total_requirements": 22,
+    "passed": 11,
+    "failed": 0,
+    "review": 11
+  },
+  "checks": [
+    {
+      "requirement": "Eligibility gate Memory must be load-bearing.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Your agent must recall and use persisted context in a fresh session.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "project_inspection_required",
+          "text": "Repository/runtime evidence is required to verify actual execution."
+        }
+      ]
+    },
+    {
+      "requirement": "What judges need to see 01 Persist context that matters to the agent.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "First a pass/fail gate: Sibyl Memory must be load-bearing.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Do I have to build on Base or Virtuals?",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "partner_stack",
+          "text": "Sibyl Memory"
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Memory is the only required stack.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "status": "REVIEW",
+      "evidence": []
+    },
+    {
+      "requirement": "It comes before the rubric, and it disqualifies wrappers.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "project_inspection_required",
+          "text": "Repository/runtime evidence is required to verify actual execution."
+        }
+      ]
+    },
+    {
+      "requirement": "03 The gate: memory must be load-bearing + Sibyl Memory is load-bearing when your core function fails or materially degrades without it.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "If yes, it is not load-bearing, and it is disqualified.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "Fabricated evidence is a disqualification, including after payout.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "project_inspection_required",
+          "text": "Repository/runtime evidence is required to verify actual execution."
+        }
+      ]
+    },
+    {
+      "requirement": "The second stack adds less on purpose, so a two-partner build cannot swamp the rubric or the PMF bonus.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "partner_stack",
+          "text": "Sibyl Memory"
+        }
+      ]
+    },
+    {
+      "requirement": "Deployment is the eligibility floor.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "missing_project_evidence",
+          "text": "Deployment evidence is not yet inspected."
+        }
+      ]
+    },
+    {
+      "requirement": "It must include the fresh-session recall beat.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "type": "idea",
+          "field": "memory_role",
+          "text": "Memory is the core state of the research process. Without persisted research history, the agent cannot continue the user's investigation coherently."
+        }
+      ]
+    },
+    {
+      "requirement": "09 Terms & eligibility + You keep all IP.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "manual_review",
+          "text": "Participant/submission eligibility requires project-level verification."
+        }
+      ]
+    },
+    {
+      "requirement": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible.",
+      "status": "REVIEW",
+      "evidence": []
+    },
+    {
+      "requirement": "Entrants must be 18+, excluding sanctioned jurisdictions.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "manual_review",
+          "text": "Participant/submission eligibility requires project-level verification."
+        }
+      ]
+    },
+    {
+      "requirement": "The Network School residency is non-transferable; if a winner cannot take it, it passes to the next rank.",
+      "status": "REVIEW",
+      "evidence": []
+    },
+    {
+      "requirement": "Sibyl Labs You need to enable JavaScript to run this app.",
+      "status": "REVIEW",
+      "evidence": [
+        {
+          "type": "manual_review",
+          "text": "Participant/submission eligibility requires project-level verification."
+        }
+      ]
+    },
+    {
+      "requirement": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action.",
+      "status": "REVIEW",
+      "evidence": []
+    }
+  ],
+  "limitations": [
+    "Repository implementation is not inspected yet.",
+    "Runtime execution is not inspected yet.",
+    "Deployment is not independently verified yet.",
+    "Submission artifacts are not independently verified yet."
+  ],
+  "next_verification_layer": [
+    "repository evidence",
+    "dependency and integration inspection",
+    "runtime execution evidence",
+    "deployment verification",
+    "submission artifact verification"
+  ]
+}

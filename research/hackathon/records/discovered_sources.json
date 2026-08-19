@@ -1,0 +1,118 @@
+{
+  "source_url": "https://hack.sibyllabs.org/",
+  "total_links": 16,
+  "sources": [
+    {
+      "url": "https://hack.sibyllabs.org/#main-content",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/#scoring",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/submissions",
+      "categories": [
+        "submission"
+      ],
+      "priority": "high"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/rules",
+      "categories": [
+        "rules"
+      ],
+      "priority": "high"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/leaderboard",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://docs.sibyllabs.org",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/register",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://blog.sibylcap.com/longmemeval-v2",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://sibyllabs.org",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://www.base.org",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://www.virtuals.io",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://sibyllabs.org/",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://www.agent-bench.xyz/",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://sibyllabs.org/products",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    },
+    {
+      "url": "https://discord.gg/csya975jMa",
+      "categories": [
+        "unclassified"
+      ],
+      "priority": "low"
+    }
+  ]
+}

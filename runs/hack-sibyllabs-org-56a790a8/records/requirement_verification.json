@@ -1,0 +1,1140 @@
+{
+  "status": "VERIFIED",
+  "summary": {
+    "total_requirements": 22,
+    "passed": 13,
+    "failed": 9,
+    "review": 0
+  },
+  "checks": [
+    {
+      "fact_id": "fact-0001",
+      "requirement": "Eligibility gate Memory must be load-bearing.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0002",
+      "requirement": "Your agent must recall and use persisted context in a fresh session.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0003",
+      "requirement": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0004",
+      "requirement": "What judges need to see 01 Persist context that matters to the agent.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0005",
+      "requirement": "First a pass/fail gate: Sibyl Memory must be load-bearing.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0006",
+      "requirement": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0007",
+      "requirement": "Do I have to build on Base or Virtuals?",
+      "category": "partner",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 283,
+      "strong_evidence_count": 139,
+      "evidence": [
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 44,
+          "text": "\"base\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 193,
+          "text": "\"transaction\",",
+          "pattern": "transaction",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 227,
+          "text": "if \"base\" in req:",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 228,
+          "text": "if \"base\" in partner:",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 231,
+          "text": "\"The proposed project explicitly includes Base in its partner stack.\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 237,
+          "text": "\"The requirement mentions Base, but the proposed project does not explicitly include it.\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 36,
+          "text": "\"base\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "dependency"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 39,
+          "text": "\"onchain\",",
+          "pattern": "onchain",
+          "category": "base",
+          "strength": "dependency"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 40,
+          "text": "\"transaction\",",
+          "pattern": "transaction",
+          "category": "base",
+          "strength": "dependency"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 41,
+          "text": "\"wallet\",",
+          "pattern": "wallet",
+          "category": "base",
+          "strength": "dependency"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0008",
+      "requirement": "Sibyl Memory is the only required stack.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0009",
+      "requirement": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0010",
+      "requirement": "It comes before the rubric, and it disqualifies wrappers.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0011",
+      "requirement": "03 The gate: memory must be load-bearing + Sibyl Memory is load-bearing when your core function fails or materially degrades without it.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0012",
+      "requirement": "If yes, it is not load-bearing, and it is disqualified.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0013",
+      "requirement": "Fabricated evidence is a disqualification, including after payout.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0014",
+      "requirement": "The second stack adds less on purpose, so a two-partner build cannot swamp the rubric or the PMF bonus.",
+      "category": "partner",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 283,
+      "strong_evidence_count": 139,
+      "evidence": [
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 44,
+          "text": "\"base\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 193,
+          "text": "\"transaction\",",
+          "pattern": "transaction",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 227,
+          "text": "if \"base\" in req:",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 228,
+          "text": "if \"base\" in partner:",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 231,
+          "text": "\"The proposed project explicitly includes Base in its partner stack.\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 237,
+          "text": "\"The requirement mentions Base, but the proposed project does not explicitly include it.\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 36,
+          "text": "\"base\",",
+          "pattern": "\\bbase\\b",
+          "category": "base",
+          "strength": "dependency"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 39,
+          "text": "\"onchain\",",
+          "pattern": "onchain",
+          "category": "base",
+          "strength": "dependency"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 40,
+          "text": "\"transaction\",",
+          "pattern": "transaction",
+          "category": "base",
+          "strength": "dependency"
+        },
+        {
+          "file": "research/hackathon/verify_requirements.py",
+          "line": 41,
+          "text": "\"wallet\",",
+          "pattern": "wallet",
+          "category": "base",
+          "strength": "dependency"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0015",
+      "requirement": "Deployment is the eligibility floor.",
+      "category": "deployment",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "evidence": [
+        {
+          "file": "docs/BUILD_PLAN.md",
+          "line": 10,
+          "text": "1. Recall persistent procurement policy from Sibyl Memory.",
+          "pattern": "from\\s+sibyl",
+          "category": "integration_signals",
+          "strength": "implementation"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0016",
+      "requirement": "It must include the fresh-session recall beat.",
+      "category": "memory",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1137,
+      "strong_evidence_count": 447,
+      "evidence": [
+        {
+          "file": "research/hackathon/fetch.py",
+          "line": 101,
+          "text": "\"retrieved_at\": datetime.now(",
+          "pattern": "retrieve",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 24,
+          "text": "\"memory must be load-bearing\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 29,
+          "text": "\"persisted context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 30,
+          "text": "\"persist context\",",
+          "pattern": "persist",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 32,
+          "text": "return \"memory_gate\"",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 108,
+          "text": "\"memory_role\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 145,
+          "text": "def verify_memory_gate(requirement, idea):",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 146,
+          "text": "memory = normalize(idea.get(\"memory_role\", \"\"))",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 149,
+          "text": "if not memory:",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        },
+        {
+          "file": "research/hackathon/verify_idea.py",
+          "line": 152,
+          "text": "\"The proposed idea does not define a load-bearing memory role.\",",
+          "pattern": "memory",
+          "category": "memory",
+          "strength": "signal"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0017",
+      "requirement": "09 Terms & eligibility + You keep all IP.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0018",
+      "requirement": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0019",
+      "requirement": "Entrants must be 18+, excluding sanctioned jurisdictions.",
+      "category": "eligibility",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0020",
+      "requirement": "The Network School residency is non-transferable; if a winner cannot take it, it passes to the next rank.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0374",
+      "requirement": "Sibyl Labs You need to enable JavaScript to run this app.",
+      "category": "general",
+      "status": "FAIL",
+      "reason": "No repository evidence matched this requirement.",
+      "evidence_count": 0,
+      "strong_evidence_count": 0,
+      "evidence": []
+    },
+    {
+      "fact_id": "fact-0375",
+      "requirement": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action.",
+      "category": "agent_safety",
+      "status": "PASS",
+      "reason": "Repository contains implementation or test evidence relevant to this requirement.",
+      "evidence_count": 1,
+      "strong_evidence_count": 1,
+      "evidence": [
+        {
+          "category": "agent_safety",
+          "strength": "test",
+          "file": "tests/run_gate_tests.py",
+          "line": null,
+          "text": "PASS: allowed action executes\nPASS: disallowed action blocked\nPASS: malformed action blocked\nPASS: every action passes through gate\n\nDETERMINISTIC GATE TESTS PASSED",
+          "pattern": "runtime_gate_execution"
+        }
+      ]
+    }
+  ]
+}

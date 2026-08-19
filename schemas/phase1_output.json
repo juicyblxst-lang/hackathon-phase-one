@@ -1,0 +1,359 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 1 Validated Hackathon Product Opportunities",
+  "type": "object",
+  "required": [
+    "hackathon",
+    "project",
+    "opportunities",
+    "validation",
+    "recommendation",
+    "phase_2_handoff"
+  ],
+  "properties": {
+    "hackathon": {
+      "type": "object",
+      "required": [
+        "name",
+        "url",
+        "deadline",
+        "organizer",
+        "rules",
+        "tracks",
+        "judging_criteria"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "deadline": { "type": ["string", "null"] },
+        "organizer": { "type": ["string", "null"] },
+        "rules": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence_item" }
+        },
+        "tracks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/track" }
+        },
+        "judging_criteria": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/judging_criterion" }
+        }
+      }
+    },
+
+    "project": {
+      "type": "object",
+      "required": [
+        "name",
+        "description",
+        "capabilities",
+        "documentation",
+        "evidence"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "technology": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "capabilities": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "users": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "existing_products": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "ecosystem": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "documentation": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "github": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence_item" }
+        }
+      }
+    },
+
+    "opportunities": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "$ref": "#/$defs/product_opportunity"
+      }
+    },
+
+    "validation": {
+      "type": "object",
+      "required": [
+        "project_alignment",
+        "technical_feasibility",
+        "hackathon_alignment",
+        "competition_alignment"
+      ],
+      "properties": {
+        "project_alignment": {
+          "type": "string"
+        },
+        "technical_feasibility": {
+          "type": "string"
+        },
+        "hackathon_alignment": {
+          "type": "string"
+        },
+        "competition_alignment": {
+          "type": "string"
+        }
+      }
+    },
+
+    "recommendation": {
+      "type": "object",
+      "required": [
+        "opportunity_id",
+        "product_name",
+        "reasoning",
+        "score"
+      ],
+      "properties": {
+        "opportunity_id": { "type": "string" },
+        "product_name": { "type": "string" },
+        "reasoning": { "type": "string" },
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      }
+    },
+
+    "phase_2_handoff": {
+      "type": "object",
+      "required": [
+        "product_name",
+        "product_objective",
+        "validated_integrations",
+        "constraints",
+        "technical_summary"
+      ],
+      "properties": {
+        "product_name": { "type": "string" },
+        "product_objective": { "type": "string" },
+        "validated_integrations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "constraints": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "technical_summary": { "type": "string" }
+      }
+    }
+  },
+
+  "$defs": {
+    "evidence_item": {
+      "type": "object",
+      "required": [
+        "claim",
+        "source_url",
+        "source_type"
+      ],
+      "properties": {
+        "claim": { "type": "string" },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "official_docs",
+            "official_website",
+            "github",
+            "hackathon_rules",
+            "hackathon_track",
+            "judging_criteria",
+            "ecosystem",
+            "other"
+          ]
+        },
+        "source_title": {
+          "type": ["string", "null"]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+
+    "track": {
+      "type": "object",
+      "required": [
+        "name",
+        "requirements"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "requirements": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence_item" }
+        }
+      }
+    },
+
+    "judging_criterion": {
+      "type": "object",
+      "required": [
+        "criterion",
+        "description"
+      ],
+      "properties": {
+        "criterion": { "type": "string" },
+        "description": { "type": "string" },
+        "weight": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "source_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        }
+      }
+    },
+
+    "product_opportunity": {
+      "type": "object",
+      "required": [
+        "id",
+        "product_name",
+        "problem",
+        "target_user",
+        "why_this_project",
+        "sponsor_value",
+        "evidence",
+        "technical_assessment",
+        "hackathon_assessment",
+        "scores"
+      ],
+      "properties": {
+        "id": { "type": "string" },
+        "product_name": { "type": "string" },
+        "problem": { "type": "string" },
+        "target_user": { "type": "string" },
+        "why_this_project": { "type": "string" },
+        "sponsor_value": { "type": "string" },
+        "differentiation": { "type": "string" },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence_item" }
+        },
+        "required_project_capabilities": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "technical_assessment": {
+          "type": "object",
+          "required": [
+            "feasibility",
+            "required_integrations",
+            "complexity",
+            "risks"
+          ],
+          "properties": {
+            "feasibility": {
+              "type": "string",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "blocked"
+              ]
+            },
+            "required_integrations": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "complexity": {
+              "type": "string"
+            },
+            "risks": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "hackathon_assessment": {
+          "type": "object",
+          "required": [
+            "eligible",
+            "requirements_met",
+            "requirements_failed",
+            "track_alignment"
+          ],
+          "properties": {
+            "eligible": { "type": "boolean" },
+            "requirements_met": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "requirements_failed": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "track_alignment": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "scores": {
+          "type": "object",
+          "required": [
+            "project_fit",
+            "sponsor_value",
+            "user_value",
+            "technical_feasibility",
+            "hackathon_alignment",
+            "judging_potential",
+            "differentiation",
+            "overall"
+          ],
+          "properties": {
+            "project_fit": { "$ref": "#/$defs/score" },
+            "sponsor_value": { "$ref": "#/$defs/score" },
+            "user_value": { "$ref": "#/$defs/score" },
+            "technical_feasibility": { "$ref": "#/$defs/score" },
+            "hackathon_alignment": { "$ref": "#/$defs/score" },
+            "judging_potential": { "$ref": "#/$defs/score" },
+            "differentiation": { "$ref": "#/$defs/score" },
+            "overall": { "$ref": "#/$defs/score" }
+          }
+        }
+      }
+    },
+
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    }
+  }
+}

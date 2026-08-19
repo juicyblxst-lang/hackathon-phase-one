@@ -1,0 +1,58 @@
+{
+  "source_url": "https://hack.sibyllabs.org/",
+  "total_links": 13,
+  "sources": [
+    {
+      "url": "https://docs.sibyllabs.org/",
+      "priority": "high"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/",
+      "priority": "high"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/rules",
+      "priority": "high"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/register",
+      "priority": "medium"
+    },
+    {
+      "url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low"
+    },
+    {
+      "url": "https://discord.gg/csya975jMa",
+      "priority": "low"
+    },
+    {
+      "url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low"
+    },
+    {
+      "url": "https://sibyllabs.org/",
+      "priority": "low"
+    },
+    {
+      "url": "https://sibyllabs.org/products",
+      "priority": "low"
+    },
+    {
+      "url": "https://www.agent-bench.xyz/",
+      "priority": "low"
+    },
+    {
+      "url": "https://www.base.org/",
+      "priority": "low"
+    },
+    {
+      "url": "https://www.virtuals.io/",
+      "priority": "low"
+    }
+  ]
+}

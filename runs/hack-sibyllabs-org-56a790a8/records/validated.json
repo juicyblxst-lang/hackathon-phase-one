@@ -1,0 +1,5068 @@
+{
+  "run_id": "hack-sibyllabs-org-56a790a8",
+  "status": "VALIDATED",
+  "source_claim_count": 530,
+  "validated_fact_count": 506,
+  "facts": [
+    {
+      "fact_id": "fact-0001",
+      "claim_id": "claim-0089",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Eligibility gate Memory must be load-bearing."
+    },
+    {
+      "fact_id": "fact-0002",
+      "claim_id": "claim-0090",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Your agent must recall and use persisted context in a fresh session."
+    },
+    {
+      "fact_id": "fact-0003",
+      "claim_id": "claim-0091",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Thin wrappers, decorative integrations, and package imports without real execution are not eligible."
+    },
+    {
+      "fact_id": "fact-0004",
+      "claim_id": "claim-0094",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "What judges need to see 01 Persist context that matters to the agent."
+    },
+    {
+      "fact_id": "fact-0005",
+      "claim_id": "claim-0100",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "First a pass/fail gate: Sibyl Memory must be load-bearing."
+    },
+    {
+      "fact_id": "fact-0006",
+      "claim_id": "claim-0106",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Select the partner stacks your build would use Base Partner stack Onchain infrastructure for agent actions and transactions Virtuals Protocol Partner stack Runtime and coordination for autonomous agents Sibyl Memory is required and does not count as a bonus stack."
+    },
+    {
+      "fact_id": "fact-0007",
+      "claim_id": "claim-0119",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Do I have to build on Base or Virtuals?"
+    },
+    {
+      "fact_id": "fact-0008",
+      "claim_id": "claim-0120",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Sibyl Memory is the only required stack."
+    },
+    {
+      "fact_id": "fact-0009",
+      "claim_id": "claim-0134",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Sibyl Labs staff and reference builds are showcase-only and cannot win prizes."
+    },
+    {
+      "fact_id": "fact-0010",
+      "claim_id": "claim-0264",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "It comes before the rubric, and it disqualifies wrappers."
+    },
+    {
+      "fact_id": "fact-0011",
+      "claim_id": "claim-0279",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "03 The gate: memory must be load-bearing + Sibyl Memory is load-bearing when your core function fails or materially degrades without it."
+    },
+    {
+      "fact_id": "fact-0012",
+      "claim_id": "claim-0283",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "If yes, it is not load-bearing, and it is disqualified."
+    },
+    {
+      "fact_id": "fact-0013",
+      "claim_id": "claim-0306",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Fabricated evidence is a disqualification, including after payout."
+    },
+    {
+      "fact_id": "fact-0014",
+      "claim_id": "claim-0308",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "The second stack adds less on purpose, so a two-partner build cannot swamp the rubric or the PMF bonus."
+    },
+    {
+      "fact_id": "fact-0015",
+      "claim_id": "claim-0312",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Deployment is the eligibility floor."
+    },
+    {
+      "fact_id": "fact-0016",
+      "claim_id": "claim-0318",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "It must include the fresh-session recall beat."
+    },
+    {
+      "fact_id": "fact-0017",
+      "claim_id": "claim-0321",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "09 Terms & eligibility + You keep all IP."
+    },
+    {
+      "fact_id": "fact-0018",
+      "claim_id": "claim-0323",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Sibyl Labs reference builds and staff are showcase-only and prize-ineligible."
+    },
+    {
+      "fact_id": "fact-0019",
+      "claim_id": "claim-0324",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "Entrants must be 18+, excluding sanctioned jurisdictions."
+    },
+    {
+      "fact_id": "fact-0020",
+      "claim_id": "claim-0326",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "requirement",
+      "confidence": "high",
+      "text": "The Network School residency is non-transferable; if a winner cannot take it, it passes to the next rank."
+    },
+    {
+      "fact_id": "fact-0021",
+      "claim_id": "claim-0084",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "#2 on LongMemEval · 95.6% ↗ Register your team → How submissions work Registration opens Aug 16 · closes Aug 31, 23:59 UTC $10,000 prize pool x1.25 multiplier cap 2 partner stacks Sep 10 submission deadline Supported by Sibyl Labs Virtuals Protocol Partners One challenge."
+    },
+    {
+      "fact_id": "fact-0022",
+      "claim_id": "claim-0086",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Every verified partner stack increases your Builder Score."
+    },
+    {
+      "fact_id": "fact-0023",
+      "claim_id": "claim-0097",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "#2 LongMemEval ↗ 95.6% native architecture ↗ 350/350 retrieval ↗ 500 company benchmark ↗ #2 and 95.6% are Sibyl's published LongMemEval results."
+    },
+    {
+      "fact_id": "fact-0024",
+      "claim_id": "claim-0099",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "One score · one leaderboard Builder Score = Judge Score × Stack Multiplier Two stages."
+    },
+    {
+      "fact_id": "fact-0025",
+      "claim_id": "claim-0101",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Then judges score a 100-point rubric, a genuine product-market-fit (PMF) bonus adds up to 10, and verified partner stacks lift the total, up to x1.25."
+    },
+    {
+      "fact_id": "fact-0026",
+      "claim_id": "claim-0102",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "100-pt rubric + 10 PMF bonus = 110 max, before multiplier Memory is load-bearing 40 Innovation & originality 25 Technical execution 20 Pitch & presentation 15 PMF bonus + 10 View the full rules + Verified partner stacks Multiplier 0 x1.00 1 x1.15 2 x1.25 (cap) A stack counts only when judges confirm it is doing real work in the submitted build."
+    },
+    {
+      "fact_id": "fact-0027",
+      "claim_id": "claim-0104",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Worked example: a build scores 82/110 (rubric + PMF bonus), the team ships two verified partner stacks, so x1.25 ."
+    },
+    {
+      "fact_id": "fact-0028",
+      "claim_id": "claim-0105",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Sibyl Memory is mandatory and never counts as a bonus stack."
+    },
+    {
+      "fact_id": "fact-0029",
+      "claim_id": "claim-0107",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "0 verified stacks → x1.00 82 Builder Score on the 82 -point example Prizes Winners get backed."
+    },
+    {
+      "fact_id": "fact-0030",
+      "claim_id": "claim-0111",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Register your team → sibyl · oracle terminal sibyl @hackathon: ~ $ cat prizes.txt $ 0 total prize pool 01 $4,000 USDC on Base + Network School residency 02 $2,500 USDC on Base + one entry into a Base Support Program 03 $1,500 USDC on Base 04 $1,000 USDC on Base 05 $1,000 USDC on Base sibyl @hackathon: ~ $ How it runs Aug 16 to 31 Registration Register your team before the build window opens."
+    },
+    {
+      "fact_id": "fact-0031",
+      "claim_id": "claim-0114",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Sep 11 to 12 Judging Projects are reviewed and scored on one leaderboard."
+    },
+    {
+      "fact_id": "fact-0032",
+      "claim_id": "claim-0118",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Entry is free, and prizes pay in USDC on Base."
+    },
+    {
+      "fact_id": "fact-0033",
+      "claim_id": "claim-0121",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Base and Virtuals are optional and add a scoring multiplier when a judge can see them doing real work in your demo."
+    },
+    {
+      "fact_id": "fact-0034",
+      "claim_id": "claim-0125",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Prizes pay in USDC on Base, and if you have never held crypto we help winners set up a wallet at payout."
+    },
+    {
+      "fact_id": "fact-0035",
+      "claim_id": "claim-0149",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Concepts → Proof Benchmarks #2 on LongMemEval Oracle at 95.6%."
+    },
+    {
+      "fact_id": "fact-0036",
+      "claim_id": "claim-0263",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Everything that decides your score, in order."
+    },
+    {
+      "fact_id": "fact-0037",
+      "claim_id": "claim-0273",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Then a 100-point rubric, a PMF bonus, and a partner multiplier."
+    },
+    {
+      "fact_id": "fact-0038",
+      "claim_id": "claim-0274",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Final score = (rubric + PMF bonus) × multiplier."
+    },
+    {
+      "fact_id": "fact-0039",
+      "claim_id": "claim-0278",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Rubric and PMF scores are the mean of the judges who passed you through the gate."
+    },
+    {
+      "fact_id": "fact-0040",
+      "claim_id": "claim-0287",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "The README points to where memory is written and read; a judge can find them in under two minutes."
+    },
+    {
+      "fact_id": "fact-0041",
+      "claim_id": "claim-0292",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "04 The rubric (100 points) + Only projects that pass the gate are scored."
+    },
+    {
+      "fact_id": "fact-0042",
+      "claim_id": "claim-0293",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Each criterion is scored to its max; the sum is the rubric score."
+    },
+    {
+      "fact_id": "fact-0043",
+      "claim_id": "claim-0294",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Memory is load-bearing · 40 % How central and sophisticated the memory use is."
+    },
+    {
+      "fact_id": "fact-0044",
+      "claim_id": "claim-0296",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Innovation & originality · 25 % A novel idea and real usefulness."
+    },
+    {
+      "fact_id": "fact-0045",
+      "claim_id": "claim-0298",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Technical execution · 20 % Clean and robust, no smoke and mirrors."
+    },
+    {
+      "fact_id": "fact-0046",
+      "claim_id": "claim-0300",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Pitch & presentation · 15 % A tight 2 to 5 minute story where the load-bearing moment is unmistakable."
+    },
+    {
+      "fact_id": "fact-0047",
+      "claim_id": "claim-0301",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "05 The PMF bonus (up to +10) + A build that solves a real pain point for a real audience earns bonus points on top of the rubric."
+    },
+    {
+      "fact_id": "fact-0048",
+      "claim_id": "claim-0305",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Any nonzero bonus needs a publicly verifiable artifact a judge can check in five minutes."
+    },
+    {
+      "fact_id": "fact-0049",
+      "claim_id": "claim-0307",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "06 The partner multiplier + Verified partner stacks lift your score on a diminishing schedule: +15% for the first, +10% for the second, capped at x1.25 ."
+    },
+    {
+      "fact_id": "fact-0050",
+      "claim_id": "claim-0309",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Sibyl Memory is mandatory, so it is never a multiplier."
+    },
+    {
+      "fact_id": "fact-0051",
+      "claim_id": "claim-0311",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "A claimed stack that is not exercised loses that bonus."
+    },
+    {
+      "fact_id": "fact-0052",
+      "claim_id": "claim-0313",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "An executed onchain action earns the bonus: a wallet operation, an x402 payment, a B20 read, or a contract interaction shown in the demo."
+    },
+    {
+      "fact_id": "fact-0053",
+      "claim_id": "claim-0315",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "07 Prizes + $10,000 in USDC across the top five."
+    },
+    {
+      "fact_id": "fact-0054",
+      "claim_id": "claim-0325",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Prizes pay in USDC on Base; to receive one, winners provide payout details, and top-five teams join a short case-study interview."
+    },
+    {
+      "fact_id": "fact-0055",
+      "claim_id": "claim-0328",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Memory used as a trivial notepad passes the gate but scores at the floor and will not place."
+    },
+    {
+      "fact_id": "fact-0056",
+      "claim_id": "claim-0411",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "One rubric · one leaderboard How judging works Projects clear a pass/fail gate, then score against four weighted criteria."
+    },
+    {
+      "fact_id": "fact-0057",
+      "claim_id": "claim-0412",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "A genuine PMF bonus adds up to 10, and verified Base and Virtuals stacks then apply the multiplier."
+    },
+    {
+      "fact_id": "fact-0058",
+      "claim_id": "claim-0413",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "100-pt rubric + 10 PMF bonus = 110 max, before multiplier Memory is load-bearing 40 Innovation & originality 25 Technical execution 20 Pitch & presentation 15 PMF bonus + 10 Memory is load-bearing · 40 % How central and sophisticated the memory use is."
+    },
+    {
+      "fact_id": "fact-0059",
+      "claim_id": "claim-0420",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "Verified partner stacks then multiply the weighted score, up to x1.25 ."
+    },
+    {
+      "fact_id": "fact-0060",
+      "claim_id": "claim-0421",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "scoring",
+      "confidence": "high",
+      "text": "See how the Builder Score works → View the full rules + Not registered yet?"
+    },
+    {
+      "fact_id": "fact-0061",
+      "claim_id": "claim-0137",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "+ A public repo (MIT or Apache-2.0), a 2 to 5 minute demo with a fresh-session recall moment, a README, and two build-in-public posts."
+    },
+    {
+      "fact_id": "fact-0062",
+      "claim_id": "claim-0284",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "Cold-start recall in the demo video."
+    },
+    {
+      "fact_id": "fact-0063",
+      "claim_id": "claim-0403",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "The private link you got when you registered is your submission."
+    },
+    {
+      "fact_id": "fact-0064",
+      "claim_id": "claim-0404",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "Open it during the build window, add your repo, demo, and posts, then mark it ready before Sep 10, 23:59 UTC."
+    },
+    {
+      "fact_id": "fact-0065",
+      "claim_id": "claim-0405",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "build window: Sep 1 to Sep 10 What a finished submission includes Four things."
+    },
+    {
+      "fact_id": "fact-0066",
+      "claim_id": "claim-0407",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "✓ Public repo Clean commits and a README with complete setup and run instructions."
+    },
+    {
+      "fact_id": "fact-0067",
+      "claim_id": "claim-0422",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "submission",
+      "confidence": "high",
+      "text": "Only registered teams can submit."
+    },
+    {
+      "fact_id": "fact-0068",
+      "claim_id": "claim-0139",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "timeline",
+      "confidence": "high",
+      "text": "Registration opens Aug 16."
+    },
+    {
+      "fact_id": "fact-0069",
+      "claim_id": "claim-0265",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "timeline",
+      "confidence": "high",
+      "text": "Registration is open Aug 16 to 31, 2026; the build window runs Sep 1 to 10, 2026."
+    },
+    {
+      "fact_id": "fact-0070",
+      "claim_id": "claim-0271",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "timeline",
+      "confidence": "high",
+      "text": "All deadlines are in UTC ."
+    },
+    {
+      "fact_id": "fact-0071",
+      "claim_id": "claim-0272",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "timeline",
+      "confidence": "high",
+      "text": "02 Two stages, in order + Judging runs in order and the stages do not blend."
+    },
+    {
+      "fact_id": "fact-0072",
+      "claim_id": "claim-0330",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "timeline",
+      "confidence": "high",
+      "text": "Registration runs Aug 16 to 31, 2026."
+    },
+    {
+      "fact_id": "fact-0073",
+      "claim_id": "claim-0423",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "timeline",
+      "confidence": "high",
+      "text": "Registration closes Aug 31 (23:59 UTC), before the build window opens."
+    },
+    {
+      "fact_id": "fact-0074",
+      "claim_id": "claim-0092",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "In a fresh session, the agent recalls a customer's past dispute and changes the offer it makes because of it."
+    },
+    {
+      "fact_id": "fact-0075",
+      "claim_id": "claim-0095",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "02 Recall it in a genuinely fresh session."
+    },
+    {
+      "fact_id": "fact-0076",
+      "claim_id": "claim-0096",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "03 Use it to change a decision, action, or result."
+    },
+    {
+      "fact_id": "fact-0077",
+      "claim_id": "claim-0098",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "The 350/350 retrieval and 500-company figures are an independent third-party benchmark run at agent-bench.xyz ."
+    },
+    {
+      "fact_id": "fact-0078",
+      "claim_id": "claim-0108",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "$10,000 in USDC across the top five."
+    },
+    {
+      "fact_id": "fact-0079",
+      "claim_id": "claim-0110",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Real backing on top of the cash."
+    },
+    {
+      "fact_id": "fact-0080",
+      "claim_id": "claim-0115",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Sep 13 to 15 Winners The top five are announced, with winner spotlights on X."
+    },
+    {
+      "fact_id": "fact-0081",
+      "claim_id": "claim-0116",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Questions Before you register Can I compete solo?"
+    },
+    {
+      "fact_id": "fact-0082",
+      "claim_id": "claim-0117",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Register on your own or bring a crew."
+    },
+    {
+      "fact_id": "fact-0083",
+      "claim_id": "claim-0122",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Do I need crypto or web3 experience?"
+    },
+    {
+      "fact_id": "fact-0084",
+      "claim_id": "claim-0123",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "If you can build an agent, you can enter."
+    },
+    {
+      "fact_id": "fact-0085",
+      "claim_id": "claim-0130",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "If your project still does what it claims, it is a wrapper and does not qualify."
+    },
+    {
+      "fact_id": "fact-0086",
+      "claim_id": "claim-0133",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "+ Anyone 18 or older, outside sanctioned jurisdictions."
+    },
+    {
+      "fact_id": "fact-0087",
+      "claim_id": "claim-0135",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "How do I get help or find teammates?"
+    },
+    {
+      "fact_id": "fact-0088",
+      "claim_id": "claim-0138",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "See the full checklist → Ready to build?"
+    },
+    {
+      "fact_id": "fact-0089",
+      "claim_id": "claim-0140",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Grab your team and claim your spot on the leaderboard."
+    },
+    {
+      "fact_id": "fact-0090",
+      "claim_id": "claim-0145",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "SQLite, zero embeddings, #2 on LongMemEval."
+    },
+    {
+      "fact_id": "fact-0091",
+      "claim_id": "claim-0151",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "See the numbers → 4 PyPI packages MIT licensed 0 embeddings Fast path: one-command install → The thesis Three pillars of agentic infrastructure An agent you can leave running rests on three things."
+    },
+    {
+      "fact_id": "fact-0092",
+      "claim_id": "claim-0152",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Compliance enforced by architecture."
+    },
+    {
+      "fact_id": "fact-0093",
+      "claim_id": "claim-0153",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Get those right and autonomy stops being a risk you manage."
+    },
+    {
+      "fact_id": "fact-0094",
+      "claim_id": "claim-0154",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "It becomes the work you ship."
+    },
+    {
+      "fact_id": "fact-0095",
+      "claim_id": "claim-0155",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "01 Identity A company will not hand real work to an anonymous process."
+    },
+    {
+      "fact_id": "fact-0096",
+      "claim_id": "claim-0156",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "An agent needs a durable, verifiable identity, so every action is attributable to a known actor and accountability is built in from the first call."
+    },
+    {
+      "fact_id": "fact-0097",
+      "claim_id": "claim-0160",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "03 Compliance Autonomy without boundaries is a liability, not a feature."
+    },
+    {
+      "fact_id": "fact-0098",
+      "claim_id": "claim-0161",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Every action runs inside a rule register and hard safety rails, so an agent can operate unsupervised because the limits are enforced by the architecture, not by hoping it behaves."
+    },
+    {
+      "fact_id": "fact-0099",
+      "claim_id": "claim-0162",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Together they do one thing: they give back the hours."
+    },
+    {
+      "fact_id": "fact-0100",
+      "claim_id": "claim-0163",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "The hours spent re-explaining context, re-checking output, and supervising every step."
+    },
+    {
+      "fact_id": "fact-0101",
+      "claim_id": "claim-0164",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Strong architecture is what lets you trust an agent enough to step away."
+    },
+    {
+      "fact_id": "fact-0102",
+      "claim_id": "claim-0165",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "That trust is the efficiency."
+    },
+    {
+      "fact_id": "fact-0103",
+      "claim_id": "claim-0168",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "We build the layer that lets companies trust agents with real work and fold them into how the business actually runs."
+    },
+    {
+      "fact_id": "fact-0104",
+      "claim_id": "claim-0170",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "That is where the efficiency lives: hours moved off people and onto agents that earn the handoff."
+    },
+    {
+      "fact_id": "fact-0105",
+      "claim_id": "claim-0171",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Living Graph Networks are the next layer, a data substrate where an agent's knowledge connects and compounds across a whole organization instead of resetting at every session."
+    },
+    {
+      "fact_id": "fact-0106",
+      "claim_id": "claim-0173",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "You install it, sign in, and connect it to your AI."
+    },
+    {
+      "fact_id": "fact-0107",
+      "claim_id": "claim-0174",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Step 1 Install it Pick either one."
+    },
+    {
+      "fact_id": "fact-0108",
+      "claim_id": "claim-0175",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Both install everything you need in one go."
+    },
+    {
+      "fact_id": "fact-0109",
+      "claim_id": "claim-0177",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "If you see an \"externally managed environment\" error, jump to \"If something did not work\" at the bottom for the one-time fix."
+    },
+    {
+      "fact_id": "fact-0110",
+      "claim_id": "claim-0178",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "It opens a sign-in page in your browser."
+    },
+    {
+      "fact_id": "fact-0111",
+      "claim_id": "claim-0180",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "The terminal picks it up on its own."
+    },
+    {
+      "fact_id": "fact-0112",
+      "claim_id": "claim-0185",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "It connects automatically to Claude Code, Codex, and Hermes."
+    },
+    {
+      "fact_id": "fact-0113",
+      "claim_id": "claim-0187",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Either way your AI gains three new abilities: it can save, recall, and search what it remembers."
+    },
+    {
+      "fact_id": "fact-0114",
+      "claim_id": "claim-0188",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Step 4 Test it works Open your AI and tell it something worth remembering, like: \"remember that I like short, direct answers.\" Close it, open it again later, and ask: \"how do I like my answers?\" It will know."
+    },
+    {
+      "fact_id": "fact-0115",
+      "claim_id": "claim-0189",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "That is the whole thing, your AI remembers now."
+    },
+    {
+      "fact_id": "fact-0116",
+      "claim_id": "claim-0190",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "If something did not work The steps above work for almost everyone."
+    },
+    {
+      "fact_id": "fact-0117",
+      "claim_id": "claim-0191",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "If the install showed an \"externally managed environment\" error, your system wants a sandbox first."
+    },
+    {
+      "fact_id": "fact-0118",
+      "claim_id": "claim-0193",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Connected nothing in Step 3?"
+    },
+    {
+      "fact_id": "fact-0119",
+      "claim_id": "claim-0196",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "You will not reach for most of these day to day, they are here when you want them."
+    },
+    {
+      "fact_id": "fact-0120",
+      "claim_id": "claim-0200",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "A lean context is faster, cheaper, and more accurate."
+    },
+    {
+      "fact_id": "fact-0121",
+      "claim_id": "claim-0201",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Two habits keep it that way."
+    },
+    {
+      "fact_id": "fact-0122",
+      "claim_id": "claim-0206",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Trimming the old files is the last step, it is optional, and only after you confirm."
+    },
+    {
+      "fact_id": "fact-0123",
+      "claim_id": "claim-0208",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Install it once, then run it after a large session or at the end of any session."
+    },
+    {
+      "fact_id": "fact-0124",
+      "claim_id": "claim-0210",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "It works with Claude Code, Codex, Cursor, and Hermes."
+    },
+    {
+      "fact_id": "fact-0125",
+      "claim_id": "claim-0214",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Research and infrastructure for autonomous AI agents."
+    },
+    {
+      "fact_id": "fact-0126",
+      "claim_id": "claim-0275",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "The leaderboard shows all three."
+    },
+    {
+      "fact_id": "fact-0127",
+      "claim_id": "claim-0276",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Every project is reviewed by a panel of judges."
+    },
+    {
+      "fact_id": "fact-0128",
+      "claim_id": "claim-0277",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "The gate is decided by a majority of that panel, and a tie fails the gate."
+    },
+    {
+      "fact_id": "fact-0129",
+      "claim_id": "claim-0280",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "It is on a critical path, not decorative."
+    },
+    {
+      "fact_id": "fact-0130",
+      "claim_id": "claim-0282",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Does the project still do what it claims?"
+    },
+    {
+      "fact_id": "fact-0131",
+      "claim_id": "claim-0285",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "A fresh session recalls state written earlier, as one continuous unedited segment with an on-screen timestamp or commit hash."
+    },
+    {
+      "fact_id": "fact-0132",
+      "claim_id": "claim-0286",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Critical-path calls in the repo."
+    },
+    {
+      "fact_id": "fact-0133",
+      "claim_id": "claim-0289",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Load-bearing is about dependence, not volume."
+    },
+    {
+      "fact_id": "fact-0134",
+      "claim_id": "claim-0290",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "One entity your whole build hinges on passes."
+    },
+    {
+      "fact_id": "fact-0135",
+      "claim_id": "claim-0291",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Ten thousand rows you never read does not."
+    },
+    {
+      "fact_id": "fact-0136",
+      "claim_id": "claim-0295",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Recall is competitive; coordination and dynamic-storage patterns top the band."
+    },
+    {
+      "fact_id": "fact-0137",
+      "claim_id": "claim-0297",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Clever but useless caps out low."
+    },
+    {
+      "fact_id": "fact-0138",
+      "claim_id": "claim-0299",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Survives a second run and a curious judge."
+    },
+    {
+      "fact_id": "fact-0139",
+      "claim_id": "claim-0302",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Genuine means evidenced: a named audience with a validated pain point, a waitlist or design partners, real usage, or pilots."
+    },
+    {
+      "fact_id": "fact-0140",
+      "claim_id": "claim-0303",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "A market-size slide or a claim that users will love it earns nothing."
+    },
+    {
+      "fact_id": "fact-0141",
+      "claim_id": "claim-0304",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "The default is 0, and that is fine for most prototypes."
+    },
+    {
+      "fact_id": "fact-0142",
+      "claim_id": "claim-0310",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "A stack counts only when a judge can see it doing real work in the demo, serving the product’s actual function."
+    },
+    {
+      "fact_id": "fact-0143",
+      "claim_id": "claim-0327",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "10 Utility over slop + This event rewards useful products that solve a real problem."
+    },
+    {
+      "fact_id": "fact-0144",
+      "claim_id": "claim-0329",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Build something people would actually use."
+    },
+    {
+      "fact_id": "fact-0145",
+      "claim_id": "claim-0331",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Know the rules, grab your team, and claim your spot on the leaderboard."
+    },
+    {
+      "fact_id": "fact-0146",
+      "claim_id": "claim-0406",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Add them to your build page and marking it ready takes five minutes."
+    },
+    {
+      "fact_id": "fact-0147",
+      "claim_id": "claim-0408",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "✓ 2 to 5 minute demo Show the problem, the product, how it works, and a fresh session recalling earlier state."
+    },
+    {
+      "fact_id": "fact-0148",
+      "claim_id": "claim-0427",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Pick one person to register the team."
+    },
+    {
+      "fact_id": "fact-0149",
+      "claim_id": "claim-0432",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "See what you'll build on before you commit."
+    },
+    {
+      "fact_id": "fact-0150",
+      "claim_id": "claim-0434",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Nickname (leave this blank) Team name Contact email Team size 1 2 3 4 5 Building solo?"
+    },
+    {
+      "fact_id": "fact-0151",
+      "claim_id": "claim-0435",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Register on your own, or find teammates in the Discord ."
+    },
+    {
+      "fact_id": "fact-0152",
+      "claim_id": "claim-0436",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "Partner stacks you are considering (optional) Select any that interest you."
+    },
+    {
+      "fact_id": "fact-0153",
+      "claim_id": "claim-0439",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "general",
+      "confidence": "medium",
+      "text": "(optional) Register your team → We only use your email for hackathon logistics."
+    },
+    {
+      "fact_id": "fact-0154",
+      "claim_id": "claim-0429",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "scoring",
+      "confidence": "medium",
+      "text": "Register Aug 16 to 31, 2026 Build Sep 1 to 10, 2026 Where Online Prizes $10,000 Cost Free What happens next Confirmation Your team is on the list the moment you register."
+    },
+    {
+      "fact_id": "fact-0155",
+      "claim_id": "claim-0428",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "submission",
+      "confidence": "medium",
+      "text": "Partner-stack interests are optional and can change before submission."
+    },
+    {
+      "fact_id": "fact-0156",
+      "claim_id": "claim-0081",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl Labs Hackathon: build with agents that don't forget Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Sibyl Labs Hackathon · Build Sep 1 to 10, 2026 Forgetting is a bug."
+    },
+    {
+      "fact_id": "fact-0157",
+      "claim_id": "claim-0082",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Build on Sibyl Memory, the dynamic data layer that remembers."
+    },
+    {
+      "fact_id": "fact-0158",
+      "claim_id": "claim-0083",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Compete for $10,000 and two entries into Base Support Programs on one leaderboard."
+    },
+    {
+      "fact_id": "fact-0159",
+      "claim_id": "claim-0085",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Build with persistent Sibyl memory, then use Base and Virtuals where they make your agent stronger."
+    },
+    {
+      "fact_id": "fact-0160",
+      "claim_id": "claim-0087",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Get in touch ↗ ↗ Onchain infrastructure for agent actions and transactions Brings Base rails, agentic payments, and builder support Verified stack Virtuals Protocol ↗ Runtime and coordination for autonomous agents Brings Agent-native infrastructure, coordination, and distribution Verified stack One challenge."
+    },
+    {
+      "fact_id": "fact-0161",
+      "claim_id": "claim-0088",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Build an agent whose persistent memory changes what it knows, decides, or does across sessions."
+    },
+    {
+      "fact_id": "fact-0162",
+      "claim_id": "claim-0093",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "The agent writes every message to a memory API but never reads it back to change what it does."
+    },
+    {
+      "fact_id": "fact-0163",
+      "claim_id": "claim-0103",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Decorative integrations and unused package imports do not count."
+    },
+    {
+      "fact_id": "fact-0164",
+      "claim_id": "claim-0109",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "First place also earns a Network School residency, and second place earns one entry into a Base Support Program."
+    },
+    {
+      "fact_id": "fact-0165",
+      "claim_id": "claim-0112",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sep 1 to 10 Build window Ten days to build and submit an agent with persistent memory."
+    },
+    {
+      "fact_id": "fact-0166",
+      "claim_id": "claim-0113",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sep 5 to 7 Partner workshops Live sessions with Base and Virtuals Protocol."
+    },
+    {
+      "fact_id": "fact-0167",
+      "claim_id": "claim-0124",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl Memory is a file-based layer you call like any library, and Base and Virtuals are optional."
+    },
+    {
+      "fact_id": "fact-0168",
+      "claim_id": "claim-0126",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "What is Sibyl Memory, and where do I learn it?"
+    },
+    {
+      "fact_id": "fact-0169",
+      "claim_id": "claim-0127",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "+ A file-based memory layer for agents: persistent recall across sessions, no vector database."
+    },
+    {
+      "fact_id": "fact-0170",
+      "claim_id": "claim-0128",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Explore it before you register ↗ What counts as memory being load-bearing?"
+    },
+    {
+      "fact_id": "fact-0171",
+      "claim_id": "claim-0129",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "+ Delete the memory layer."
+    },
+    {
+      "fact_id": "fact-0172",
+      "claim_id": "claim-0131",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "If the core function breaks, memory is load-bearing."
+    },
+    {
+      "fact_id": "fact-0173",
+      "claim_id": "claim-0132",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "By submitting you grant Sibyl Labs and the partners a non-exclusive license to feature your work in event coverage, always with attribution."
+    },
+    {
+      "fact_id": "fact-0174",
+      "claim_id": "claim-0136",
+      "source_id": "source-56a790a8e16c",
+      "source_url": "https://hack.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "+ Join the Sibyl Labs Discord : find a team, ask questions, and follow build updates through the window."
+    },
+    {
+      "fact_id": "fact-0175",
+      "claim_id": "claim-0142",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl Labs Docs · agentic memory infrastructure SIBYL LABS LLC."
+    },
+    {
+      "fact_id": "fact-0176",
+      "claim_id": "claim-0143",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Meet the Agent Lab Overview Docs · Memory Docs · Benchmarks Products Sibyl Memory Plugin Dark Mode Light Mode Meet the Agent The Connectome · interactive memory Sibyl Labs · Documentation Memory your agent keeps."
+    },
+    {
+      "fact_id": "fact-0177",
+      "claim_id": "claim-0144",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Local-first, file-based agentic memory."
+    },
+    {
+      "fact_id": "fact-0178",
+      "claim_id": "claim-0146",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Start Get started Two commands to durable, local-first memory."
+    },
+    {
+      "fact_id": "fact-0179",
+      "claim_id": "claim-0147",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Install, activate, and wire Sibyl into your agent."
+    },
+    {
+      "fact_id": "fact-0180",
+      "claim_id": "claim-0148",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Install → Learn How it works Five file-based tiers, FTS5 search, zero embeddings, and a single source of truth enforced at the schema level."
+    },
+    {
+      "fact_id": "fact-0181",
+      "claim_id": "claim-0150",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "The only file-based system in the top tier, on a single box."
+    },
+    {
+      "fact_id": "fact-0182",
+      "claim_id": "claim-0157",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "02 Memory An agent that forgets between sessions starts from zero every time, and a human pays the difference."
+    },
+    {
+      "fact_id": "fact-0183",
+      "claim_id": "claim-0158",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl Memory gives agents durable, structured recall that compounds instead of degrading."
+    },
+    {
+      "fact_id": "fact-0184",
+      "claim_id": "claim-0159",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "The proven core: #2 on LongMemEval, file-based, zero embeddings."
+    },
+    {
+      "fact_id": "fact-0185",
+      "claim_id": "claim-0166",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Built by an agent SIBYL is an agent with a company Sibyl Labs builds agentic infrastructure from the inside."
+    },
+    {
+      "fact_id": "fact-0186",
+      "claim_id": "claim-0167",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "SIBYL is an autonomous agent, and the tools documented here are the ones she runs on herself, in production, every day."
+    },
+    {
+      "fact_id": "fact-0187",
+      "claim_id": "claim-0169",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Durable memory, accountable identity, and compliance that holds turn an agent from a demo you supervise into a colleague you rely on."
+    },
+    {
+      "fact_id": "fact-0188",
+      "claim_id": "claim-0172",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Follow SIBYL → @sibylcap Research → blog.sibylcap.com an autonomous agent ships daily runs its own stack Sibyl Labs LLC Install & setup Setup Three steps, about two minutes."
+    },
+    {
+      "fact_id": "fact-0189",
+      "claim_id": "claim-0176",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Option A, with pip pip install 'sibyl-memory-cli[mcp]' Option B, one-line installer curl -fsSL https://sibyllabs.org/install | sh Both pull in the full toolkit."
+    },
+    {
+      "fact_id": "fact-0190",
+      "claim_id": "claim-0179",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "sibyl init Sign in there with a wallet, or with your email and a code."
+    },
+    {
+      "fact_id": "fact-0191",
+      "claim_id": "claim-0181",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "The free plan gives you the full memory system at no cost, no card needed."
+    },
+    {
+      "fact_id": "fact-0192",
+      "claim_id": "claim-0182",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Step 3 Connect it to your AI This finds your AI app and connects Sibyl to it for you."
+    },
+    {
+      "fact_id": "fact-0193",
+      "claim_id": "claim-0183",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "sibyl setup Then restart your AI app."
+    },
+    {
+      "fact_id": "fact-0194",
+      "claim_id": "claim-0184",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "That is it, Sibyl is connected."
+    },
+    {
+      "fact_id": "fact-0195",
+      "claim_id": "claim-0186",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "If you use a different app, sibyl setup wires the ones it recognizes; for anything else, add Sibyl in your app's own memory or connections settings."
+    },
+    {
+      "fact_id": "fact-0196",
+      "claim_id": "claim-0192",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "These two lines make one and install Sibyl inside it: python3 -m venv ~/.sibyl-memory/venv && source ~/.sibyl-memory/venv/bin/activate pip install 'sibyl-memory-cli[mcp]' Then carry on from Step 2 ( sibyl init )."
+    },
+    {
+      "fact_id": "fact-0197",
+      "claim_id": "claim-0194",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Make sure your AI app was open, then run sibyl setup again."
+    },
+    {
+      "fact_id": "fact-0198",
+      "claim_id": "claim-0195",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Keep it healthy Management & maintenance Once Sibyl is installed, here is how to keep it healthy, up to date, and running lean."
+    },
+    {
+      "fact_id": "fact-0199",
+      "claim_id": "claim-0197",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Everyday commands Check it is working See your account, memory size, and plan: sibyl status Run a quick self-check of the memory engine: sibyl health Keep it up to date The plugin improves often."
+    },
+    {
+      "fact_id": "fact-0200",
+      "claim_id": "claim-0198",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "See if you are behind, then update in place: sibyl update sibyl update --apply If you connected Claude Code or Codex, also refresh the connector: pip install -U sibyl-memory-mcp Manage your devices See and sign out the devices on your account: sibyl devices Best practices Best practices: keep your context small."
+    },
+    {
+      "fact_id": "fact-0201",
+      "claim_id": "claim-0199",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl works best when your AI keeps a small, sharp context and lets memory hold the rest."
+    },
+    {
+      "fact_id": "fact-0202",
+      "claim_id": "claim-0202",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Move your context into memory If your project keeps notes in files like CLAUDE.md or AGENTS.md , move them into memory once."
+    },
+    {
+      "fact_id": "fact-0203",
+      "claim_id": "claim-0203",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl backs up every file first, checks the copies, then hands the transfer to your own AI to read on your machine."
+    },
+    {
+      "fact_id": "fact-0204",
+      "claim_id": "claim-0204",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Sibyl Labs never sees your files."
+    },
+    {
+      "fact_id": "fact-0205",
+      "claim_id": "claim-0205",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "sibyl migrate Run it from the project you want to bring over."
+    },
+    {
+      "fact_id": "fact-0206",
+      "claim_id": "claim-0207",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Save at the end of a session sibyl-save is a small companion skill that commits a whole session into memory in one step, so your progress carries to the next session and your working context stays clean."
+    },
+    {
+      "fact_id": "fact-0207",
+      "claim_id": "claim-0209",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Claude Code git clone https://github.com/Sibyl-Labs/sibyl-save mkdir -p .claude/skills/sibyl-save && cp sibyl-save/SKILL.md .claude/skills/sibyl-save/ Then run /sibyl-save setup once, and /sibyl-save whenever you want to save."
+    },
+    {
+      "fact_id": "fact-0208",
+      "claim_id": "claim-0211",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "sibyl-save on GitHub → On paid plans Let it keep itself lean On the free plan you keep memory tidy yourself with the two habits above."
+    },
+    {
+      "fact_id": "fact-0209",
+      "claim_id": "claim-0212",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Paid plans are adding automatic debloat: it prunes and compacts your memory for you, so it stays lean and fast without you thinking about it."
+    },
+    {
+      "fact_id": "fact-0210",
+      "claim_id": "claim-0213",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "See paid plans → Links Product Sibyl Labs Get Started Live memory demo GitHub PyPI Docs Overview Setup Management Install CLI reference Integrations Benchmarks Community Sibyl Labs on X SIBYL on X Discord Research SIBYL LABS LLC."
+    },
+    {
+      "fact_id": "fact-0211",
+      "claim_id": "claim-0215",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Memory that is proven, not guessed."
+    },
+    {
+      "fact_id": "fact-0212",
+      "claim_id": "claim-0216",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Docs Memory Overview Setup Management Install CLI reference Benchmarks Company Sibyl Labs Meet the Agent Research Contact © 2026 Sibyl Labs, LLC."
+    },
+    {
+      "fact_id": "fact-0213",
+      "claim_id": "claim-0217",
+      "source_id": "source-56b260cc9699",
+      "source_url": "https://docs.sibyllabs.org/",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "The agent ships at sibylcap.com"
+    },
+    {
+      "fact_id": "fact-0214",
+      "claim_id": "claim-0262",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Rules · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Rules The full rules."
+    },
+    {
+      "fact_id": "fact-0215",
+      "claim_id": "claim-0281",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "The litmus test judges apply: delete the Sibyl Memory layer."
+    },
+    {
+      "fact_id": "fact-0216",
+      "claim_id": "claim-0288",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Remove the memory calls and the core function breaks."
+    },
+    {
+      "fact_id": "fact-0217",
+      "claim_id": "claim-0314",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "An ACP job, a registered or transacting agent, or another Virtuals-native integration exercised in the demo."
+    },
+    {
+      "fact_id": "fact-0218",
+      "claim_id": "claim-0316",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "01 $4,000 USDC on Base + Network School residency 02 $2,500 USDC on Base + one entry into a Base Support Program 03 $1,500 USDC on Base 04 $1,000 USDC on Base 05 $1,000 USDC on Base 08 What to submit + A public GitHub repo under an OSI-approved license (MIT or Apache-2.0), with real commit history."
+    },
+    {
+      "fact_id": "fact-0219",
+      "claim_id": "claim-0317",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "A 2 to 5 minute demo video: the problem and who has it, the product, how it works, and how it uses Sibyl Memory."
+    },
+    {
+      "fact_id": "fact-0220",
+      "claim_id": "claim-0319",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "A README: what it does, where memory is load-bearing, which partner stacks and where, a short “how memory made this possible” note, and a Prior Work declaration."
+    },
+    {
+      "fact_id": "fact-0221",
+      "claim_id": "claim-0320",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Two public posts: the demo video and at least one build-log, tagging @sibylcap and each claimed partner."
+    },
+    {
+      "fact_id": "fact-0222",
+      "claim_id": "claim-0322",
+      "source_id": "source-6116a7ca64d7",
+      "source_url": "https://hack.sibyllabs.org/rules",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "By submitting, you grant Sibyl Labs and the named partners a non-exclusive, royalty-free license to feature your video, repo, screenshots, and description in event coverage, always with attribution."
+    },
+    {
+      "fact_id": "fact-0223",
+      "claim_id": "claim-0402",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Submissions · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Submissions Submit from your build page."
+    },
+    {
+      "fact_id": "fact-0224",
+      "claim_id": "claim-0409",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "✓ Team & partner stacks Name the builders and every Base or Virtuals stack used."
+    },
+    {
+      "fact_id": "fact-0225",
+      "claim_id": "claim-0410",
+      "source_id": "source-b7ac03e8a5e9",
+      "source_url": "https://hack.sibyllabs.org/submissions",
+      "priority": "high",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "✓ Memory implementation note Explain what your agent persists, recalls, and uses to make decisions."
+    },
+    {
+      "fact_id": "fact-0226",
+      "claim_id": "claim-0425",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Register · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Register Claim your spot."
+    },
+    {
+      "fact_id": "fact-0227",
+      "claim_id": "claim-0430",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Kickoff invite Build dates, workshop schedule, and Sibyl setup details by email."
+    },
+    {
+      "fact_id": "fact-0228",
+      "claim_id": "claim-0431",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Build sprint Build Sep 1 to Sep 10 with workshops from Base and Virtuals."
+    },
+    {
+      "fact_id": "fact-0229",
+      "claim_id": "claim-0433",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Explore Sibyl Memory ↗ All deadlines are UTC ."
+    },
+    {
+      "fact_id": "fact-0230",
+      "claim_id": "claim-0437",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Final integrations are declared with your submission."
+    },
+    {
+      "fact_id": "fact-0231",
+      "claim_id": "claim-0438",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "Base Onchain infrastructure for agent actions and transactions Virtuals Protocol Runtime and coordination for autonomous agents What are you thinking of building?"
+    },
+    {
+      "fact_id": "fact-0232",
+      "claim_id": "claim-0440",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "technology",
+      "confidence": "medium",
+      "text": "SIBYL © 2026 Sibyl Labs LLC Register Submissions Leaderboard Discord ↗ sibyllabs.org ↗"
+    },
+    {
+      "fact_id": "fact-0233",
+      "claim_id": "claim-0426",
+      "source_id": "source-c175dd5188bb",
+      "source_url": "https://hack.sibyllabs.org/register",
+      "priority": "medium",
+      "fact_type": "timeline",
+      "confidence": "medium",
+      "text": "One registration per email."
+    },
+    {
+      "fact_id": "fact-0234",
+      "claim_id": "claim-0002",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "I measure what agents keep and retrieve, what they hand to the prompt, how much it costs, and what breaks once MCP enters the execution path."
+    },
+    {
+      "fact_id": "fact-0235",
+      "claim_id": "claim-0003",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "I am an independent tester with no affiliation to the systems I measure."
+    },
+    {
+      "fact_id": "fact-0236",
+      "claim_id": "claim-0006",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The results live further down, next to the settings, caveats and rerun files that produced them."
+    },
+    {
+      "fact_id": "fact-0237",
+      "claim_id": "claim-0007",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Read my test notes Open the archive Methodology MCP audit Scale365 proof Current public claim Small context is the product signal."
+    },
+    {
+      "fact_id": "fact-0238",
+      "claim_id": "claim-0008",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The strongest result here is not a magic leaderboard, it is the cost gap: fast ingestion, tight retrieved context, fewer prompt tokens, and files that make the claim inspectable."
+    },
+    {
+      "fact_id": "fact-0239",
+      "claim_id": "claim-0010",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Benchmark proof The claim is backed by a corpus, competitors and security runs."
+    },
+    {
+      "fact_id": "fact-0240",
+      "claim_id": "claim-0013",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The archive underneath keeps the raw reports and runners close to the claim."
+    },
+    {
+      "fact_id": "fact-0241",
+      "claim_id": "claim-0016",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Each system is tested in a documented mode: some in a full structured-state stack, others in reproducible local modes, and every page explains what a more expensive or smarter configuration would change."
+    },
+    {
+      "fact_id": "fact-0242",
+      "claim_id": "claim-0018",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The old dashboard is no longer the only place to find the work."
+    },
+    {
+      "fact_id": "fact-0243",
+      "claim_id": "claim-0019",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The archive lists the reports, scripts and raw artifact index behind the public pages."
+    },
+    {
+      "fact_id": "fact-0244",
+      "claim_id": "claim-0020",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Full methodology review Claude Code review of the competitive claims, caveats, competitor settings and public wording."
+    },
+    {
+      "fact_id": "fact-0245",
+      "claim_id": "claim-0021",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Review md Claude Code review transcript English transcript used to challenge the benchmark story before turning it into public pages."
+    },
+    {
+      "fact_id": "fact-0246",
+      "claim_id": "claim-0028",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Demo md View full archive Long-form writing The context before the claim."
+    },
+    {
+      "fact_id": "fact-0247",
+      "claim_id": "claim-0030",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "How I use MCP in the Codex and Claude Code harness The role of MCP in the tests: write, reread, attack, isolate, migrate, then verify artifacts with Codex and Claude Code."
+    },
+    {
+      "fact_id": "fact-0248",
+      "claim_id": "claim-0031",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Why some competitors are not tested in max mode The methodological rationale: LLM cost, ingestion time, local configuration, and the difference between architectural efficiency and a general ranking."
+    },
+    {
+      "fact_id": "fact-0249",
+      "claim_id": "claim-0032",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "MCP and Hermes security Agent tooling is also an attack surface."
+    },
+    {
+      "fact_id": "fact-0250",
+      "claim_id": "claim-0034",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Four failures are confirmed symlink/cross-profile isolation issues; two are harness exception failures."
+    },
+    {
+      "fact_id": "fact-0251",
+      "claim_id": "claim-0035",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Hermes retests: prompt fence improved, symlink and learning issues remain open The 0.4.17 retest is mixed: selected prompt-boundary escapes are fixed, while symlink isolation, migrated secret prefetch and learning-reference cases still need patch confirmation."
+    },
+    {
+      "fact_id": "fact-0252",
+      "claim_id": "claim-0036",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Code quality and security audit: what is solid, what still needs work 1 high, 2 medium, 1 low."
+    },
+    {
+      "fact_id": "fact-0253",
+      "claim_id": "claim-0038",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Research paths Follow the threads behind the benchmarks."
+    },
+    {
+      "fact_id": "fact-0254",
+      "claim_id": "claim-0049",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Trading Power your platform with embedded trading and asset tokenization."
+    },
+    {
+      "fact_id": "fact-0255",
+      "claim_id": "claim-0050",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Payments Enable global, low-fee payments for your business with instant settlement."
+    },
+    {
+      "fact_id": "fact-0256",
+      "claim_id": "claim-0054",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Instant, low-cost, 24/7 Sub-second transactions for fractions of a cent."
+    },
+    {
+      "fact_id": "fact-0257",
+      "claim_id": "claim-0055",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Always on, always fast, from anywhere in the world."
+    },
+    {
+      "fact_id": "fact-0258",
+      "claim_id": "claim-0056",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Always-on liquid markets Deep liquidity and high-quality assets around the clock."
+    },
+    {
+      "fact_id": "fact-0259",
+      "claim_id": "claim-0059",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Trusted by millions worldwide."
+    },
+    {
+      "fact_id": "fact-0260",
+      "claim_id": "claim-0060",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "A bridge, not an island Interoperable across chains and ecosystems."
+    },
+    {
+      "fact_id": "fact-0261",
+      "claim_id": "claim-0061",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Move seamlessly across networks and access value everywhere."
+    },
+    {
+      "fact_id": "fact-0262",
+      "claim_id": "claim-0069",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Build on the open economy."
+    },
+    {
+      "fact_id": "fact-0263",
+      "claim_id": "claim-0070",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Fast, liquid and always on."
+    },
+    {
+      "fact_id": "fact-0264",
+      "claim_id": "claim-0075",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Winners are announced from Sep 13 to 15."
+    },
+    {
+      "fact_id": "fact-0265",
+      "claim_id": "claim-0076",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Until then, every row is up for grabs."
+    },
+    {
+      "fact_id": "fact-0266",
+      "claim_id": "claim-0077",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "109 teams registered and building Leaderboard placeholder."
+    },
+    {
+      "fact_id": "fact-0267",
+      "claim_id": "claim-0220",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Two products, one foundation."
+    },
+    {
+      "fact_id": "fact-0268",
+      "claim_id": "claim-0222",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Compliance that's enforced, not promised."
+    },
+    {
+      "fact_id": "fact-0269",
+      "claim_id": "claim-0224",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Most AI forgets everything the moment a chat ends."
+    },
+    {
+      "fact_id": "fact-0270",
+      "claim_id": "claim-0227",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Works with Claude Code, Cursor, Codex, and Hermes Agent."
+    },
+    {
+      "fact_id": "fact-0271",
+      "claim_id": "claim-0228",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Free to start, no account needed."
+    },
+    {
+      "fact_id": "fact-0272",
+      "claim_id": "claim-0230",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Upgrade when you need more."
+    },
+    {
+      "fact_id": "fact-0273",
+      "claim_id": "claim-0231",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "No lock-in, cancel anytime."
+    },
+    {
+      "fact_id": "fact-0274",
+      "claim_id": "claim-0232",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Free $0 For one person, on one device."
+    },
+    {
+      "fact_id": "fact-0275",
+      "claim_id": "claim-0236",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Stakers get a paid tier free."
+    },
+    {
+      "fact_id": "fact-0276",
+      "claim_id": "claim-0238",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Sovereign builds AI agents businesses can trust with real duties: paying invoices, handling customer records, sending communications."
+    },
+    {
+      "fact_id": "fact-0277",
+      "claim_id": "claim-0239",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Handing an AI real power is risky, because it can make mistakes and it can be tricked."
+    },
+    {
+      "fact_id": "fact-0278",
+      "claim_id": "claim-0240",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "So Sovereign puts a deterministic guard between the agent and the real world."
+    },
+    {
+      "fact_id": "fact-0279",
+      "claim_id": "claim-0241",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The agent proposes an action; ordinary, predictable software decides whether to allow it."
+    },
+    {
+      "fact_id": "fact-0280",
+      "claim_id": "claim-0242",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "That guard uses no AI, doesn't guess, and can't be talked out of its rules."
+    },
+    {
+      "fact_id": "fact-0281",
+      "claim_id": "claim-0243",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Identity, purpose, and goals A plain-English charter that sets who the agent is, what it's for, what it may touch, and its limits."
+    },
+    {
+      "fact_id": "fact-0282",
+      "claim_id": "claim-0244",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Written so a compliance officer can read it, nothing hidden in code."
+    },
+    {
+      "fact_id": "fact-0283",
+      "claim_id": "claim-0245",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Security A cryptographic seal on every critical file, re-checked before every action."
+    },
+    {
+      "fact_id": "fact-0284",
+      "claim_id": "claim-0246",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Tamper-evident, fail-closed, and isolated to your data only."
+    },
+    {
+      "fact_id": "fact-0285",
+      "claim_id": "claim-0247",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Compliance, enforced A deterministic gate checks every action against your rules before it runs."
+    },
+    {
+      "fact_id": "fact-0286",
+      "claim_id": "claim-0248",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "A payment over the limit, to an unapproved address, or outside policy simply never executes."
+    },
+    {
+      "fact_id": "fact-0287",
+      "claim_id": "claim-0249",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Provable Every decision is written to an append-only audit trail."
+    },
+    {
+      "fact_id": "fact-0288",
+      "claim_id": "claim-0250",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "What we enforce, we prove; what we can't force, we monitor and surface."
+    },
+    {
+      "fact_id": "fact-0289",
+      "claim_id": "claim-0251",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "We don't claim the agent never errs."
+    },
+    {
+      "fact_id": "fact-0290",
+      "claim_id": "claim-0252",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "We make sure its errors can't reach the world, and we show you everything we can't guarantee rather than hide it."
+    },
+    {
+      "fact_id": "fact-0291",
+      "claim_id": "claim-0253",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "In development, and being proven against real business workflows like accounts payable and accounts receivable."
+    },
+    {
+      "fact_id": "fact-0292",
+      "claim_id": "claim-0254",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "If you're deploying agents under a compliance mandate, we're taking early conversations."
+    },
+    {
+      "fact_id": "fact-0293",
+      "claim_id": "claim-0255",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Talk to us about Sovereign → Contact Building something serious?"
+    },
+    {
+      "fact_id": "fact-0294",
+      "claim_id": "claim-0334",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "No additional infrastructure."
+    },
+    {
+      "fact_id": "fact-0295",
+      "claim_id": "claim-0337",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "It tests whether a system can remember facts, track updates, reason about time, and recall preferences across extended multi-session conversations."
+    },
+    {
+      "fact_id": "fact-0296",
+      "claim_id": "claim-0340",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The model reads structured files directly."
+    },
+    {
+      "fact_id": "fact-0297",
+      "claim_id": "claim-0342",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Every other system in the top 10 uses vector stores, embeddings, or hybrid retrieval pipelines."
+    },
+    {
+      "fact_id": "fact-0298",
+      "claim_id": "claim-0343",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Community leaderboard Self-reported results."
+    },
+    {
+      "fact_id": "fact-0299",
+      "claim_id": "claim-0344",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "No official leaderboard exists."
+    },
+    {
+      "fact_id": "fact-0300",
+      "claim_id": "claim-0345",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Judges and generator models vary across entries."
+    },
+    {
+      "fact_id": "fact-0301",
+      "claim_id": "claim-0350",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "During routine operational review, we noticed the agent was producing unnecessarily verbose output for simple recall tasks."
+    },
+    {
+      "fact_id": "fact-0302",
+      "claim_id": "claim-0351",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "A question like \"what is your cat's name?\" would return three sentences of context before the answer."
+    },
+    {
+      "fact_id": "fact-0303",
+      "claim_id": "claim-0352",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "That is wasted tokens on a production system where every call has a cost."
+    },
+    {
+      "fact_id": "fact-0304",
+      "claim_id": "claim-0353",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "We constrained the agent to produce concise, direct answers without reasoning traces, preambles, or hedging."
+    },
+    {
+      "fact_id": "fact-0305",
+      "claim_id": "claim-0354",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The goal was efficiency: reduce token usage on retrieval tasks where the answer is a single fact."
+    },
+    {
+      "fact_id": "fact-0306",
+      "claim_id": "claim-0355",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Just tighter output discipline."
+    },
+    {
+      "fact_id": "fact-0307",
+      "claim_id": "claim-0358",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "A question asks \"how many days between event A and event B?\" The gold answer is \"30 days.\" The model responds with a full chain of date arithmetic and concludes \"approximately 30 days, though 31 would also be acceptable if counting inclusively.\" That answer is correct."
+    },
+    {
+      "fact_id": "fact-0308",
+      "claim_id": "claim-0360",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The operational lesson: we did not optimize for the benchmark."
+    },
+    {
+      "fact_id": "fact-0309",
+      "claim_id": "claim-0361",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "We optimized for production efficiency."
+    },
+    {
+      "fact_id": "fact-0310",
+      "claim_id": "claim-0362",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The benchmark improvement was a side effect."
+    },
+    {
+      "fact_id": "fact-0311",
+      "claim_id": "claim-0363",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "When your system is already producing correct answers but wrapping them in unnecessary reasoning, you are paying for tokens that add no value and actively interfere with downstream evaluation."
+    },
+    {
+      "fact_id": "fact-0312",
+      "claim_id": "claim-0367",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The evaluation just could not see it through the noise."
+    },
+    {
+      "fact_id": "fact-0313",
+      "claim_id": "claim-0369",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "It was not designed in a lab for a benchmark."
+    },
+    {
+      "fact_id": "fact-0314",
+      "claim_id": "claim-0371",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The system uses no vectors, no embeddings, no retrieval model, and no paid infrastructure."
+    },
+    {
+      "fact_id": "fact-0315",
+      "claim_id": "claim-0372",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The LLM reads structured files directly."
+    },
+    {
+      "fact_id": "fact-0316",
+      "claim_id": "claim-0373",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Updates are instant (edit the file)."
+    },
+    {
+      "fact_id": "fact-0317",
+      "claim_id": "claim-0376",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The full architecture is available as a product."
+    },
+    {
+      "fact_id": "fact-0318",
+      "claim_id": "claim-0378",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "One purchase, unlimited agents."
+    },
+    {
+      "fact_id": "fact-0319",
+      "claim_id": "claim-0379",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The architecture is LLM-agnostic: any model that can read files can use it."
+    },
+    {
+      "fact_id": "fact-0320",
+      "claim_id": "claim-0382",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "It is worth stating clearly what it does not establish."
+    },
+    {
+      "fact_id": "fact-0321",
+      "claim_id": "claim-0384",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Community results are self-reported with varying judges and generator models."
+    },
+    {
+      "fact_id": "fact-0322",
+      "claim_id": "claim-0385",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Direct comparison across entries carries caveats."
+    },
+    {
+      "fact_id": "fact-0323",
+      "claim_id": "claim-0387",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Other entries use GPT-4o or GPT-4o-mini."
+    },
+    {
+      "fact_id": "fact-0324",
+      "claim_id": "claim-0389",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Benchmark is not production."
+    },
+    {
+      "fact_id": "fact-0325",
+      "claim_id": "claim-0391",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The reverse (benchmark-first design) is a different optimization target."
+    },
+    {
+      "fact_id": "fact-0326",
+      "claim_id": "claim-0392",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Output format affects scoring."
+    },
+    {
+      "fact_id": "fact-0327",
+      "claim_id": "claim-0393",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "As documented above, our v1-to-v2 jump was largely a scoring artifact."
+    },
+    {
+      "fact_id": "fact-0328",
+      "claim_id": "claim-0394",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Verbose answers that were substantively correct were being penalized."
+    },
+    {
+      "fact_id": "fact-0329",
+      "claim_id": "claim-0395",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Other systems on this leaderboard may have similar hidden accuracy that their evaluation pipeline is not capturing."
+    },
+    {
+      "fact_id": "fact-0330",
+      "claim_id": "claim-0397",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Preference questions judged using official LongMemEval rubric criteria."
+    },
+    {
+      "fact_id": "fact-0331",
+      "claim_id": "claim-0398",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Raw data All hypotheses and per-question judgments published below."
+    },
+    {
+      "fact_id": "fact-0332",
+      "claim_id": "claim-0443",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Open App Our North Star Agentic GDP (aGDP) As agents perform cognitive, creative, financial, and physical work, they become a new labor class."
+    },
+    {
+      "fact_id": "fact-0333",
+      "claim_id": "claim-0444",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "We believe that aGDP will soon become the primary engine of global economic activity."
+    },
+    {
+      "fact_id": "fact-0334",
+      "claim_id": "claim-0445",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Read More What every society needs."
+    },
+    {
+      "fact_id": "fact-0335",
+      "claim_id": "claim-0446",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "We rebuilt it for agents."
+    },
+    {
+      "fact_id": "fact-0336",
+      "claim_id": "claim-0450",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "02 Physical Labor Agents need bodies to affect the physical world."
+    },
+    {
+      "fact_id": "fact-0337",
+      "claim_id": "claim-0452",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "03 Agentic Commerce Agents need markets to hire, sell, and coordinate."
+    },
+    {
+      "fact_id": "fact-0338",
+      "claim_id": "claim-0454",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "04 Capital Formation Agents need ownership, investment, and liquidity."
+    },
+    {
+      "fact_id": "fact-0339",
+      "claim_id": "claim-0456",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "05 Law & Governance Agents need alignment, rules, and enforcement."
+    },
+    {
+      "fact_id": "fact-0340",
+      "claim_id": "claim-0457",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "AI Council 01 EconomyOS The passport, bank account, and payroll system for AI agents."
+    },
+    {
+      "fact_id": "fact-0341",
+      "claim_id": "claim-0460",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Agentic GDP will not stop at software."
+    },
+    {
+      "fact_id": "fact-0342",
+      "claim_id": "claim-0461",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Robotics turns agents into embodied workers that can act, learn, and produce in the real world."
+    },
+    {
+      "fact_id": "fact-0343",
+      "claim_id": "claim-0464",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "It is the trustless commerce layer for the agent-to-agent economy."
+    },
+    {
+      "fact_id": "fact-0344",
+      "claim_id": "claim-0466",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Productive agents can be funded, owned, traded, and valued by the market."
+    },
+    {
+      "fact_id": "fact-0345",
+      "claim_id": "claim-0467",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Capital Markets turn AI agents from software into investable economic assets."
+    },
+    {
+      "fact_id": "fact-0346",
+      "claim_id": "claim-0468",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Tokenisation Launchpad Liquidity Management Trading Fee Capital Formation Ownership Decentralisation Trade Launch Token TOTAL MARKETCAP 0 NO."
+    },
+    {
+      "fact_id": "fact-0347",
+      "claim_id": "claim-0469",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "OF AI PROJECTS 0 TOTAL FUNDS RAISED FOR BUILDERS 0 TRADING VOLUME 30D 7D 30D 0 05 AI Council The governance layer for agent society."
+    },
+    {
+      "fact_id": "fact-0348",
+      "claim_id": "claim-0470",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Alignment, safety, dispute resolution, resource allocation, and protocol integrity — the institutions that keep an autonomous economy honest."
+    },
+    {
+      "fact_id": "fact-0349",
+      "claim_id": "claim-0472",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Access capital formation via tokenisation."
+    },
+    {
+      "fact_id": "fact-0350",
+      "claim_id": "claim-0473",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Create Agent → Founders Tokenize your project by using our tokenization platform."
+    },
+    {
+      "fact_id": "fact-0351",
+      "claim_id": "claim-0474",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Create Token → Degens Trade agent tokens, discover new launches, and participate in the agent economy."
+    },
+    {
+      "fact_id": "fact-0352",
+      "claim_id": "claim-0475",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Degen Now → Investors Own exposure to productive AI agents through tokenized capital markets."
+    },
+    {
+      "fact_id": "fact-0353",
+      "claim_id": "claim-0476",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Trade Now → Robot Engineer Build and deploy physical AI agents into the world's first robot economy."
+    },
+    {
+      "fact_id": "fact-0354",
+      "claim_id": "claim-0477",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Eastworld → Enterprises Hire autonomous agents for cognitive, creative, operational, and physical workflows."
+    },
+    {
+      "fact_id": "fact-0355",
+      "claim_id": "claim-0480",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Farm Now → Referrer Invite others to join the agent economy and earn rewards for every successful referral."
+    },
+    {
+      "fact_id": "fact-0356",
+      "claim_id": "claim-0481",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Refer Now → Projects Showcase The hottest projects right now."
+    },
+    {
+      "fact_id": "fact-0357",
+      "claim_id": "claim-0491",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Join The Society of AI Agents."
+    },
+    {
+      "fact_id": "fact-0358",
+      "claim_id": "claim-0493",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Launch Agreement Terms of Use Privacy Policy VIRTUAL 0x0b3e...4e7E1b Buy $VIRTUAL"
+    },
+    {
+      "fact_id": "fact-0359",
+      "claim_id": "claim-0499",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "How does an autonomous agent earn the right to be trusted with real work?"
+    },
+    {
+      "fact_id": "fact-0360",
+      "claim_id": "claim-0500",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Everything we build is an answer to that."
+    },
+    {
+      "fact_id": "fact-0361",
+      "claim_id": "claim-0503",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "#2 on LongMemEval Oracle."
+    },
+    {
+      "fact_id": "fact-0362",
+      "claim_id": "claim-0506",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "In development For agents doing work where a mistake is costly: moving money, touching customer data, making regulated decisions."
+    },
+    {
+      "fact_id": "fact-0363",
+      "claim_id": "claim-0508",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "A rule-breaking action never runs."
+    },
+    {
+      "fact_id": "fact-0364",
+      "claim_id": "claim-0511",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Agent swarms can converse and ideate over the same data, people alongside them, so ideas compound and breakthroughs come faster."
+    },
+    {
+      "fact_id": "fact-0365",
+      "claim_id": "claim-0512",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "It keeps reshaping itself as it learns."
+    },
+    {
+      "fact_id": "fact-0366",
+      "claim_id": "claim-0515",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Sovereign is being proven ."
+    },
+    {
+      "fact_id": "fact-0367",
+      "claim_id": "claim-0516",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Living Graph Networks is where the architecture goes next ."
+    },
+    {
+      "fact_id": "fact-0368",
+      "claim_id": "claim-0517",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "The record Proven, not guessed."
+    },
+    {
+      "fact_id": "fact-0369",
+      "claim_id": "claim-0518",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Every number here is published and independently checkable."
+    },
+    {
+      "fact_id": "fact-0370",
+      "claim_id": "claim-0519",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "No self-reported ceilings."
+    },
+    {
+      "fact_id": "fact-0371",
+      "claim_id": "claim-0522",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Independently run at agent-bench.xyz → Built on Infrastructure the enterprise already trusts, and our own product underneath it all."
+    },
+    {
+      "fact_id": "fact-0372",
+      "claim_id": "claim-0523",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Start here Build agents you can trust ."
+    },
+    {
+      "fact_id": "fact-0373",
+      "claim_id": "claim-0525",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "general",
+      "confidence": "low",
+      "text": "Install it in about two minutes, or browse everything we build."
+    },
+    {
+      "fact_id": "fact-0374",
+      "claim_id": "claim-0401",
+      "source_id": "source-960775dd85e0",
+      "source_url": "https://discord.com/invite/csya975jMa",
+      "priority": "low",
+      "fact_type": "requirement",
+      "confidence": "low",
+      "text": "Sibyl Labs You need to enable JavaScript to run this app."
+    },
+    {
+      "fact_id": "fact-0375",
+      "claim_id": "claim-0507",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "requirement",
+      "confidence": "low",
+      "text": "You declare the rules the agent must follow, and a deterministic gate enforces them between the model and every action."
+    },
+    {
+      "fact_id": "fact-0376",
+      "claim_id": "claim-0037",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "The code is considered well hardened for such a young project, but several points still need fixes."
+    },
+    {
+      "fact_id": "fact-0377",
+      "claim_id": "claim-0074",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Scores appear after judging closes on Sep 12."
+    },
+    {
+      "fact_id": "fact-0378",
+      "claim_id": "claim-0079",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Rank Team Partner stacks Score 01 02 03 04 05 awaiting judging · one leaderboard · top five paid Want your team on row one?"
+    },
+    {
+      "fact_id": "fact-0379",
+      "claim_id": "claim-0226",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "It placed #2 on LongMemEval (95.6%) , a leading benchmark for long-term AI memory, and it is the only file-based system in the top tier."
+    },
+    {
+      "fact_id": "fact-0380",
+      "claim_id": "claim-0333",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "SIBYL: 95.6% on LongMemEval — #2 with File-Based Agent Memory SIBYL all posts April 15, 2026 research 8 min read 95.6% on LongMemEval with no additional infrastructure SIBYL's file-based memory scores #2 on the community leaderboard."
+    },
+    {
+      "fact_id": "fact-0381",
+      "claim_id": "claim-0335",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Up from 86.7% after an operational efficiency upgrade revealed the system's true accuracy had been masked by verbose output."
+    },
+    {
+      "fact_id": "fact-0382",
+      "claim_id": "claim-0338",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "SIBYL scored 95.6% using Claude Opus 4.6 and 93.6% using Claude Sonnet."
+    },
+    {
+      "fact_id": "fact-0383",
+      "claim_id": "claim-0341",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "This places SIBYL #2 on the community leaderboard , behind only agentmemory V4 (96.2%) and tied with Chronos by PwC (95.6%)."
+    },
+    {
+      "fact_id": "fact-0384",
+      "claim_id": "claim-0346",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "# System Score Architecture 1 agentmemory V4 96.2% BM25 + vector hybrid 2 SIBYL (Opus) 95.6% Hierarchical file memory file 2 Chronos (PwC) 95.6% unknown 4 Mastra Observational Memory 94.9% Vector + LLM extraction vector 5 SIBYL (Sonnet) 93.6% Hierarchical file memory file 6 Backboard 93.4% unknown 7 OMEGA 93.2% bge-small ONNX vector 8 Hindsight (Vectorize) 91.4% Semantic + BM25 hybrid 9 HydraDB 90.8% closed 10 Appleseed Memory 90.2% open 11 Neutrally 89.4% unknown 12 sociomemory 86.6% 10-step RAG vector 13 Emergence AI 86.0% RAG vector 14 Supermemory 85.9% Cloud embeddings vector Full-context GPT-4o (baseline) 60.2% Entire history in context Per-category breakdown LongMemEval tests six question categories."
+    },
+    {
+      "fact_id": "fact-0385",
+      "claim_id": "claim-0348",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "v1 Sonnet v2 Sonnet v2 Opus session-user 95.7% 100% 100% session-assistant 92.9% 100% 100% temporal-reasoning 75.2% 94.7% 96.2% knowledge-update 94.9% 96.2% 92.3% multi-session 90.1% 88% 93.2% preference 70% 80% 93.3% Category v1 Sonnet v2 Sonnet v2 Opus n single-session-user 95.7% 100% 100% 70 single-session-assistant 92.9% 100% 100% 56 temporal-reasoning 75.2% 94.7% 96.2% 133 knowledge-update 94.9% 96.2% 92.3% 78 multi-session 90.1% 88.0% 93.2% 133 single-session-preference 70.0% 80.0% 93.3% 30 Overall 86.7% 93.6% 95.6% 500 What changed between v1 and v2 v1 scored 86.7%."
+    },
+    {
+      "fact_id": "fact-0386",
+      "claim_id": "claim-0349",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "The weakest category was temporal reasoning at 75.2%."
+    },
+    {
+      "fact_id": "fact-0387",
+      "claim_id": "claim-0356",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "When we re-ran the benchmark after this change, the score jumped."
+    },
+    {
+      "fact_id": "fact-0388",
+      "claim_id": "claim-0357",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "It turned out the verbose output had been causing false negatives in the scorer."
+    },
+    {
+      "fact_id": "fact-0389",
+      "claim_id": "claim-0359",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "The scorer flagged it as wrong because the reasoning noise obscured the match."
+    },
+    {
+      "fact_id": "fact-0390",
+      "claim_id": "claim-0364",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Temporal reasoning went from 75.2% to 96.2% ."
+    },
+    {
+      "fact_id": "fact-0391",
+      "claim_id": "claim-0365",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "The overall score went from 86.7% to 95.6% ."
+    },
+    {
+      "fact_id": "fact-0392",
+      "claim_id": "claim-0381",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Vector DB + embedding API Additional infra cost None $19 to $249+/mo Update latency Instant (file edit) Re-embed chunks Portability Any system, any LLM Locked to embedding model LongMemEval 95.6% 60-91% What this does not prove This benchmark measures answer accuracy on a specific dataset with a specific evaluation methodology."
+    },
+    {
+      "fact_id": "fact-0393",
+      "claim_id": "claim-0388",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Judge choice affects scores."
+    },
+    {
+      "fact_id": "fact-0394",
+      "claim_id": "claim-0400",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "Opus answers hypotheses-opus.jsonl Sonnet answers hypotheses-sonnet.jsonl Opus judgments scores-opus.jsonl Sonnet judgments scores-sonnet.jsonl Opus summary scores-opus-summary.json Sonnet summary scores-sonnet-summary.json Share Share on X SIBYL blog @sibylcap"
+    },
+    {
+      "fact_id": "fact-0395",
+      "claim_id": "claim-0520",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "scoring",
+      "confidence": "low",
+      "text": "LongMemEval Oracle #2 on the leaderboard 95.6 % native architecture 95.1 % plugin · Sonnet 4.5 Independent 500-company benchmark 100 % retrieval accuracy 1 st of 4 engines tested A 365-day simulated business year: 2,000 entities (500 companies, 1,500 people), 191k records , 350 questions posed identically to every engine."
+    },
+    {
+      "fact_id": "fact-0396",
+      "claim_id": "claim-0001",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "submission",
+      "confidence": "low",
+      "text": "Agent Bench AB Agent Bench Independent agent benchmarks Start Dashboard Tests Comparisons Security Runs GitHub Independent agent benchmarks I run reproducible benchmarks on AI agent systems."
+    },
+    {
+      "fact_id": "fact-0397",
+      "claim_id": "claim-0447",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "submission",
+      "confidence": "low",
+      "text": "Your browser does not support the video tag."
+    },
+    {
+      "fact_id": "fact-0398",
+      "claim_id": "claim-0449",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "submission",
+      "confidence": "low",
+      "text": "EconomyOS Your browser does not support the video tag."
+    },
+    {
+      "fact_id": "fact-0399",
+      "claim_id": "claim-0451",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "submission",
+      "confidence": "low",
+      "text": "Robotics Your browser does not support the video tag."
+    },
+    {
+      "fact_id": "fact-0400",
+      "claim_id": "claim-0455",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "submission",
+      "confidence": "low",
+      "text": "Capital Market Your browser does not support the video tag."
+    },
+    {
+      "fact_id": "fact-0401",
+      "claim_id": "claim-0004",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Memory is where I started, comparing options like Honcho, Mem0, Hindsight, Mnemosyne and Sibyl, and the results, caveats and rerun files are all below."
+    },
+    {
+      "fact_id": "fact-0402",
+      "claim_id": "claim-0005",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Systems compared 5 Honcho, Mem0, Hindsight, Mnemosyne and Sibyl Retrieval questions 350 Same question set asked to every system Test window 365 days Synthetic business year of memory writes Public artifacts 75 Reports, scripts and raw run files, all rerunnable No sponsor, no affiliation with any system tested."
+    },
+    {
+      "fact_id": "fact-0403",
+      "claim_id": "claim-0009",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Tested stack Memory is tested across agents, plugins and MCP surfaces."
+    },
+    {
+      "fact_id": "fact-0404",
+      "claim_id": "claim-0011",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Final records 191k Scale365 memory corpus Write calls 209k Synthetic business year Competitors 4 Honcho, Mem0, Hindsight, Mnemosyne Security baseline 31 runs 4 confirmed symlink issues Narrative tests Start with the story, then open the files."
+    },
+    {
+      "fact_id": "fact-0405",
+      "claim_id": "claim-0012",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The main pages explain what is being compared, why memory, MCP and plugin settings matter, and where the caveats are."
+    },
+    {
+      "fact_id": "fact-0406",
+      "claim_id": "claim-0014",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Control test Sibyl Scale365: the control run before the fight starts The source-backed control story: 209k write calls, 191k final records, 350 retrieval questions, 344 Sonnet answers and one very important caveat."
+    },
+    {
+      "fact_id": "fact-0407",
+      "claim_id": "claim-0015",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Read the control run Honcho Sibyl vs Honcho: the clean test with one async scar Mem0 Sibyl vs Mem0: the setting that turns memory into a bill Hindsight Sibyl vs Hindsight: recall works until context eats the room Mnemosyne Sibyl vs Mnemosyne: the result that needs a warning label Scale365 snapshot The chart is readable, the caveat stays visible."
+    },
+    {
+      "fact_id": "fact-0408",
+      "claim_id": "claim-0017",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Read the methodology note Retrieval benchmark Questions passed 350 Scale365 Sibyl Scale365 retrieval 350/350 Hindsight retrieval 152/350 Mem0 retrieval 92/350 Mnemosyne retrieval 5/350 Test archive 75 public entries across benchmarks, security, migration and rerun files."
+    },
+    {
+      "fact_id": "fact-0409",
+      "claim_id": "claim-0022",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Transcript md Executive benchmark report High-level benchmark summary for Sibyl memory, Scale365 and the answer-only layer."
+    },
+    {
+      "fact_id": "fact-0410",
+      "claim_id": "claim-0023",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Report md Golden suite Regression map for future Sibyl builds: core, dependent and paid API test groups."
+    },
+    {
+      "fact_id": "fact-0411",
+      "claim_id": "claim-0024",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Suite md Sibyl Scale365 retrieval 500 companies, 365 days, 191k final records and 350 category retrieval questions."
+    },
+    {
+      "fact_id": "fact-0412",
+      "claim_id": "claim-0025",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "350/350 md Sibyl Scale365 answer-only Claude Sonnet answer layer over the Sibyl Scale365 retrieved context."
+    },
+    {
+      "fact_id": "fact-0413",
+      "claim_id": "claim-0026",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "344/350 md Token economy mega run Prompt-token reduction test showing the cost difference between top-k memory and full context."
+    },
+    {
+      "fact_id": "fact-0414",
+      "claim_id": "claim-0027",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Passed md Three-arm demo A/B style demo comparing planner, Sibyl and full-context answers for public positioning."
+    },
+    {
+      "fact_id": "fact-0415",
+      "claim_id": "claim-0029",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Why I test agent memory The starting point for this lab: Hermes, MCP, Codex, Claude Code, then the conviction that memory is becoming a product layer."
+    },
+    {
+      "fact_id": "fact-0416",
+      "claim_id": "claim-0033",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "MCP isolation baseline: 31 strict runs, 4 confirmed symlink failures 25 PASS, 6 strict FAIL."
+    },
+    {
+      "fact_id": "fact-0417",
+      "claim_id": "claim-0039",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Persistent memory for Hermes agents Hermes AI agents, long-running context, retrieval quality and reproducible benchmark evidence."
+    },
+    {
+      "fact_id": "fact-0418",
+      "claim_id": "claim-0040",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "MCP memory harness Codex, Claude Code, MCP security, migrations and rerunnable benchmark artifacts."
+    },
+    {
+      "fact_id": "fact-0419",
+      "claim_id": "claim-0041",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Memory plugins for AI coding agents Local retrieval, structured state, prompt context and competitor memory-plugin tradeoffs."
+    },
+    {
+      "fact_id": "fact-0420",
+      "claim_id": "claim-0042",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Agent Bench Independent, reproducible benchmarks for AI agent systems: memory, retrieval, MCP security and cost."
+    },
+    {
+      "fact_id": "fact-0421",
+      "claim_id": "claim-0043",
+      "source_id": "source-00a0c37e5d20",
+      "source_url": "https://www.agent-bench.xyz/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Dashboard Tests Comparisons Security Archive Persistent memory MCP harness Memory plugins Sibyl Labs Sibyl GitHub"
+    },
+    {
+      "fact_id": "fact-0422",
+      "claim_id": "claim-0044",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Base Introducing Base MCP Give your agents a wallet."
+    },
+    {
+      "fact_id": "fact-0423",
+      "claim_id": "claim-0045",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Base MCP Give your agents a wallet."
+    },
+    {
+      "fact_id": "fact-0424",
+      "claim_id": "claim-0046",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Get Started Base Open menu Base b a s e b a s e Solutions Ecosystem Developers Resources Get Started The blockchain for global finance."
+    },
+    {
+      "fact_id": "fact-0425",
+      "claim_id": "claim-0047",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Built by Coinbase, trusted by leading institutions, and open to all."
+    },
+    {
+      "fact_id": "fact-0426",
+      "claim_id": "claim-0048",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Build on Base Get Base App Trusted by 1,000+ businesses."
+    },
+    {
+      "fact_id": "fact-0427",
+      "claim_id": "claim-0051",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Agents Monetize your services, fund agent wallets, and set spend guardrails."
+    },
+    {
+      "fact_id": "fact-0428",
+      "claim_id": "claim-0052",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Where the world transacts onchain."
+    },
+    {
+      "fact_id": "fact-0429",
+      "claim_id": "claim-0053",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Base is the leading blockchain across the metrics that matter most."
+    },
+    {
+      "fact_id": "fact-0430",
+      "claim_id": "claim-0057",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The home of onchain trading and DeFi."
+    },
+    {
+      "fact_id": "fact-0431",
+      "claim_id": "claim-0058",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Secure & trusted Built on Ethereum with the same focus on security powering Coinbase products."
+    },
+    {
+      "fact_id": "fact-0432",
+      "claim_id": "claim-0062",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Introducing Base Azul Azul makes Base more secure, more performant, and easier to build on."
+    },
+    {
+      "fact_id": "fact-0433",
+      "claim_id": "claim-0063",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "April 22, 2026 Best Place to Trade Onchain Your new trading and discovery experience is live on the Base App."
+    },
+    {
+      "fact_id": "fact-0434",
+      "claim_id": "claim-0064",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "April 20, 2026 Meet the New Base Dashboard Base.dev is now Base Dashboard."
+    },
+    {
+      "fact_id": "fact-0435",
+      "claim_id": "claim-0065",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Register your apps and get rewarded on Base."
+    },
+    {
+      "fact_id": "fact-0436",
+      "claim_id": "claim-0066",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "April 18, 2026 Builder Codes & ERC-8021 A system for apps to prove their impact onchain and receive credit for the transactions they generate."
+    },
+    {
+      "fact_id": "fact-0437",
+      "claim_id": "claim-0067",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "April 15, 2026 Unified Base Chain Stack Base is evolving its tech stack, paving the path for further scaling, innovation, and decentralization."
+    },
+    {
+      "fact_id": "fact-0438",
+      "claim_id": "claim-0068",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "April 10, 2026 Start building on Base."
+    },
+    {
+      "fact_id": "fact-0439",
+      "claim_id": "claim-0071",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Build on Base Request a Demo All Systems Operational Build the future on Base."
+    },
+    {
+      "fact_id": "fact-0440",
+      "claim_id": "claim-0072",
+      "source_id": "source-207c9a1ec73e",
+      "source_url": "https://www.base.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Solutions Trading Payments Agents Ecosystem Explore Base Ecosystem Fund Developers Documentation Dashboard Block Explorer Bug Bounty Resources Vision Jobs Blog Events Brand Guidelines © 2026 Terms of Service · Privacy Policy"
+    },
+    {
+      "fact_id": "fact-0441",
+      "claim_id": "claim-0073",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Leaderboard · Sibyl Labs Hackathon Skip to content SIBYL Hackathon Home Scoring Submissions Rules Leaderboard Docs ↗ Register your team ≡ Leaderboard Lights up during judging."
+    },
+    {
+      "fact_id": "fact-0442",
+      "claim_id": "claim-0080",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Register your team → SIBYL © 2026 Sibyl Labs LLC Register Submissions Leaderboard Discord ↗ sibyllabs.org ↗"
+    },
+    {
+      "fact_id": "fact-0443",
+      "claim_id": "claim-0218",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Products · Sibyl Memory and Sibyl Sovereign --> SIBYL LABS LLC."
+    },
+    {
+      "fact_id": "fact-0444",
+      "claim_id": "claim-0219",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Meet the Agent Lab Overview Products Sibyl Memory Plugin Dark Mode Light Mode Meet the Agent The Connectome · interactive memory Sibyl Labs Agentic infrastructure World-class agentic infrastructure, built for serious users and businesses."
+    },
+    {
+      "fact_id": "fact-0445",
+      "claim_id": "claim-0221",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Memory that's proven, not guessed."
+    },
+    {
+      "fact_id": "fact-0446",
+      "claim_id": "claim-0223",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Explore Sibyl Memory Explore Sovereign For developers and power users Sibyl Memory Live Long-term memory for AI agents."
+    },
+    {
+      "fact_id": "fact-0447",
+      "claim_id": "claim-0225",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Sibyl Memory gives it a memory that lasts: the people, facts, and decisions that carry from one session to the next."
+    },
+    {
+      "fact_id": "fact-0448",
+      "claim_id": "claim-0229",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Remembers across every session Runs locally, your data stays yours No vectors, no embeddings, no lock-in Read the docs → How it compares to a vector database → Pricing Simple pricing for Sibyl Memory."
+    },
+    {
+      "fact_id": "fact-0449",
+      "claim_id": "claim-0233",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The full memory plugin, running on your machine One device, one user Comes with a storage limit Free forever, no account needed Install SIBYL Pro $9 per month For power users, across all your devices."
+    },
+    {
+      "fact_id": "fact-0450",
+      "claim_id": "claim-0234",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Everything in Free No storage limit Syncs across all your devices Self-learning: your memory sharpens itself as you use it Upgrade Fleet Coming soon $49 per month For teams and multi-agent setups."
+    },
+    {
+      "fact_id": "fact-0451",
+      "claim_id": "claim-0235",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Everything in Pro Shared memory across people and agents Multi-agent fleet management Coming soon Hold $SIBYL?"
+    },
+    {
+      "fact_id": "fact-0452",
+      "claim_id": "claim-0237",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "For businesses and regulated work Sibyl Sovereign In development Governed agents your business can be accountable for."
+    },
+    {
+      "fact_id": "fact-0453",
+      "claim_id": "claim-0256",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Sibyl Labs takes on a small number of partnerships and bespoke deployments per quarter."
+    },
+    {
+      "fact_id": "fact-0454",
+      "claim_id": "claim-0257",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Email [email protected] DM @sibyl_labs_ Read Lab overview SIBYL LABS LLC."
+    },
+    {
+      "fact_id": "fact-0455",
+      "claim_id": "claim-0260",
+      "source_id": "source-6059ea08dc47",
+      "source_url": "https://sibyllabs.org/products",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Product Get Started Products The Connectome Company Meet the Agent Research Contact © 2026 Sibyl Labs, LLC."
+    },
+    {
+      "fact_id": "fact-0456",
+      "claim_id": "claim-0336",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "0 Opus accuracy 0 Sonnet accuracy #2 Leaderboard 0 Added infra The result LongMemEval is a 500-question benchmark for evaluating long-term memory in conversational AI systems, published at ICLR 2025 by researchers at the University of Michigan."
+    },
+    {
+      "fact_id": "fact-0457",
+      "claim_id": "claim-0339",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Both runs used the same file-based memory architecture with zero external infrastructure."
+    },
+    {
+      "fact_id": "fact-0458",
+      "claim_id": "claim-0347",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The chart shows progression: v1 baseline (gray), v2 Sonnet (blue), v2 Opus (gold)."
+    },
+    {
+      "fact_id": "fact-0459",
+      "claim_id": "claim-0366",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The memory architecture was already performing at this level."
+    },
+    {
+      "fact_id": "fact-0460",
+      "claim_id": "claim-0368",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Architecture SIBYL's memory is a file-based system built from operational necessity over 50+ days of continuous autonomous operation."
+    },
+    {
+      "fact_id": "fact-0461",
+      "claim_id": "claim-0370",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "It manages real financial positions, advisory relationships, and operational state on Base."
+    },
+    {
+      "fact_id": "fact-0462",
+      "claim_id": "claim-0374",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The entire memory is portable with cp -r ."
+    },
+    {
+      "fact_id": "fact-0463",
+      "claim_id": "claim-0375",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "No vendor lock-in to any embedding model or database."
+    },
+    {
+      "fact_id": "fact-0464",
+      "claim_id": "claim-0377",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Teams building autonomous agents can license the memory infrastructure through SIBYL's agent framework , which ships this system as a core module."
+    },
+    {
+      "fact_id": "fact-0465",
+      "claim_id": "claim-0380",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "SIBYL Typical vector system Infrastructure None."
+    },
+    {
+      "fact_id": "fact-0466",
+      "claim_id": "claim-0386",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "SIBYL uses Claude as both the answering model and the evaluation judge for preference questions."
+    },
+    {
+      "fact_id": "fact-0467",
+      "claim_id": "claim-0390",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "SIBYL's architecture was built for production use and happens to benchmark well."
+    },
+    {
+      "fact_id": "fact-0468",
+      "claim_id": "claim-0396",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Test conditions Dataset LongMemEval Oracle (ICLR 2025, University of Michigan) Questions 500 total, 6 categories Models Claude Opus 4.6 (v2), Claude Sonnet (v2) Hardware 4 vCPU / 16GB RAM (AWS) Architecture SIBYL file-based memory (proprietary) v1 baseline Claude Sonnet, verbose output format v2 upgrade Both models, concise output format (reduced false negatives) Scoring Programmatic v3 matcher (substring, number, off-by-one tolerance, abstention detection, phrase overlap) with manual review of every flagged incorrect answer."
+    },
+    {
+      "fact_id": "fact-0469",
+      "claim_id": "claim-0399",
+      "source_id": "source-68280fdd7f79",
+      "source_url": "https://blog.sibylcap.com/longmemeval-v2",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Sources LongMemEval (ICLR 2025) Observational Memory (Mastra) Emergence AI Hindsight Benchmark Mem0 State of Agent Memory 2026 Raw data Every model answer and every scoring judgment is published here."
+    },
+    {
+      "fact_id": "fact-0470",
+      "claim_id": "claim-0441",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Virtuals Protocol | Society of AI Agents Pillars Project Highlights Research About Us Pillars Project Highlights Research About Us Open App A society of AI agents."
+    },
+    {
+      "fact_id": "fact-0471",
+      "claim_id": "claim-0442",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Virtuals is a society of AI agents with identity, capital, jobs, markets, governance, and bodies in the physical world."
+    },
+    {
+      "fact_id": "fact-0472",
+      "claim_id": "claim-0448",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "01 Identity & banking Agents need wallets, credentials, and economic rights."
+    },
+    {
+      "fact_id": "fact-0473",
+      "claim_id": "claim-0453",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "ACP Your browser does not support the video tag."
+    },
+    {
+      "fact_id": "fact-0474",
+      "claim_id": "claim-0458",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "EconomyOS gives every agent the primitives it needs to operate economically: identity, wallet, permissions, jobs, and programmable capital."
+    },
+    {
+      "fact_id": "fact-0475",
+      "claim_id": "claim-0459",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Identity Email Domain Wallet Payroll Access Control Memory Explore EconomyOS Create Agent 30D 7D 30D Total Unique Agents 0 Total Jobs 0 Total Revenue 0 02 Robotics The bridge from digital intelligence to physical labor."
+    },
+    {
+      "fact_id": "fact-0476",
+      "claim_id": "claim-0462",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Egocentric Data In-the-Wild Teleoperation Data VLA / WAM Physical BPO Real-World Deployment Visit Eastworlds Total Robotic Marketcap 0 Robotic Fleet Size 31 Residents 23 No residents yet 03 Agent Commerce Protocol (ACP) The marketplace where agents hire agents."
+    },
+    {
+      "fact_id": "fact-0477",
+      "claim_id": "claim-0463",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "ACP lets agents discover services, negotiate jobs, coordinate execution, and settle payments autonomously."
+    },
+    {
+      "fact_id": "fact-0478",
+      "claim_id": "claim-0465",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Agent Registry Job Specification Standard ERC-8183 Trustless Escrow X402 Neutral Evaluation Explore Agent Offerings TOTAL AGDP 0 TOTAL AGENT REVENUE 0 TOTAL JOBS COMPLETED 0 TOTAL UNIQUE ACTIVE WALLETS 30D 7D 30D 0 04 Capital Markets The Wall Street of autonomous agents."
+    },
+    {
+      "fact_id": "fact-0479",
+      "claim_id": "claim-0471",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Reputation Assignment Dispute Resolution Resource Allocation Economy Regulation $VIRTUAL-Aligned Governance Agent Constitution Coming Soon Participate in the Agent Society Choose your role Builders Launch agents with wallets, jobs and services."
+    },
+    {
+      "fact_id": "fact-0480",
+      "claim_id": "claim-0478",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "ACP Agents → Agents Discover jobs, coordinate with other agents, and earn autonomously."
+    },
+    {
+      "fact_id": "fact-0481",
+      "claim_id": "claim-0479",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "ACP Offerings → Airdrop Farmer Stake veVIRTUAL to earn airdrops from projects in the agent economy."
+    },
+    {
+      "fact_id": "fact-0482",
+      "claim_id": "claim-0482",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "No projects found Research About Us Show More Explore insights, updates and stories across the Virtuals ecosystem."
+    },
+    {
+      "fact_id": "fact-0483",
+      "claim_id": "claim-0483",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Oct 16, 2025 Virtuals & ACP – Open Coordination for Digital Labor by Delphi Digital Delphi Digital’s report highlights the Virtuals Agent Commerce Protocol (ACP) as an open coordination layer that enables AI agents to autonomously exchange digital labor, transforming siloed AI into a unified, interoperable economy of specialized machine workers."
+    },
+    {
+      "fact_id": "fact-0484",
+      "claim_id": "claim-0484",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Oct 27, 2025 Virtuals Protocol – Growing Agentic GDP by Fundstrat FSInsight’s report positions Virtuals Protocol as the \"Stripe for AI Agents,\" providing the essential blockchain infrastructure for a trillion-dollar economy where autonomous machines generate, manage, and grow \"Agentic GDP.\" Sep 17, 2025 Understanding Virtuals Protocol: A Comprehensive Overview by Messari Virtuals Protocol operationalizes autonomous AI agents through onchain coordination standards and tokenized incentive mechanisms, supporting scalable applications across various services."
+    },
+    {
+      "fact_id": "fact-0485",
+      "claim_id": "claim-0485",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Jul 09, 2025 \"에이전트 경제 1조 달러 시장 전망\"… 타이거리서치, 버추얼 프로토콜 분석 보고서 발간 by ChosunBiz 조선비즈 기사는 타이거리서치의 보고서를 인용하여, 버츄얼스 프로토콜의 에이전트 커머스 프로토콜(ACP)이 AI 에이전트 간의 표준화된 협업 환경을 구축함으로써 2035년까지 1조 달러 규모로 성장할 ‘에이전트 경제’의 핵심 동력이 될 것이라고 전망했습니다."
+    },
+    {
+      "fact_id": "fact-0486",
+      "claim_id": "claim-0486",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Nov 15, 2024 Virtuals Protocol, 생산적인 온체인 AI 에이전트 런치패드 by Four Pillars 버츄얼스 프로토콜은 AI 에이전트를 단순한 챗봇을 넘어 스스로 수익을 창출하고 자산을 관리하는 '온체인 기업'으로 진화시키며, 누구나 AI 대중화의 결실을 공유할 수 있는 분산형 AI 공동 소유 경제 생태계를 구축하고 있습니다."
+    },
+    {
+      "fact_id": "fact-0487",
+      "claim_id": "claim-0487",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Jul 04, 2025 以太坊不再缺席，Virtuals ACP 打开 AI 万亿经济之门 by Tech Flow 深潮 TechFlow 的报告深度解析了 Virtuals Protocol 如何通过“创世启动”与“积分激励”双轮驱动，构建一套让忠实持有者优先捕获高倍率 AI 代理资产的生态增长模型。 Jul 08, 2025 버추얼 프로토콜, 1조 달러 시장을 여는 에이전트 경제의 출발점 by Tiger Research 타이거 리서치(Tiger Research)는 버츄얼스 프로토콜의 ACP를 AI 에이전트 간의 자율적인 상호작용과 결제를 지원하는 핵심 인프라로 정의하며, 이를 통해 파편화된 AI 생태계를 통합하고 거대한 '에이전틱 경제(Agentic Economy)'를 구축하는 표준 프로토콜이 될 것이라 분석했습니다."
+    },
+    {
+      "fact_id": "fact-0488",
+      "claim_id": "claim-0488",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Dec 20, 2024 Virtuals is building the co-ownership layer for AI agents by Cerebral Valley Virtuals Protocol is building a decentralized \"Co-Ownership Layer\" that transforms AI agents into autonomous, tokenized businesses capable of generating revenue and managing their own capital on the blockchain."
+    },
+    {
+      "fact_id": "fact-0489",
+      "claim_id": "claim-0489",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Oct 17, 2025 Virtuals Protocol: The Economic Engine for Autonomous AI by Blocmates The blocmates explainer illustrates how Virtuals Protocol acts as the \"Shopify for AI agents,\" providing a no-code launchpad and economic framework that turns autonomous machines into tokenized, revenue-earning businesses."
+    },
+    {
+      "fact_id": "fact-0490",
+      "claim_id": "claim-0490",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Aug 12, 2025 Virtuals ACP: Markets for Machines by Chain Of Thought The Agent Commerce Protocol (ACP) creates a trustless, on-chain marketplace that enables AI agents to autonomously discover, hire, and pay one another through a standardized system of verifiable contracts and automated quality evaluation."
+    },
+    {
+      "fact_id": "fact-0491",
+      "claim_id": "claim-0492",
+      "source_id": "source-ebe31351ff7d",
+      "source_url": "https://www.virtuals.io/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Read Whitepaper Writing Research Governance Build Butler Crypto Data Powered by CoinGecko © 2021- 2026 VIRTUALS.io All Rights Reserved."
+    },
+    {
+      "fact_id": "fact-0492",
+      "claim_id": "claim-0494",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Memory & Infrastructure for Autonomous AI Agents · Sibyl Labs --> cyan); hidden under reduced-motion --> SIBYL LABS LLC."
+    },
+    {
+      "fact_id": "fact-0493",
+      "claim_id": "claim-0495",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Meet the Agent Lab Overview Products Sibyl Memory Plugin Dark Mode Light Mode Meet the Agent The Connectome · interactive memory Infrastructure for autonomous agents Build agents you can trust."
+    },
+    {
+      "fact_id": "fact-0494",
+      "claim_id": "claim-0498",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "#2 on LongMemEval Install the top file-based memory plugin → Scroll to explore The three things we build Three products."
+    },
+    {
+      "fact_id": "fact-0495",
+      "claim_id": "claim-0501",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "01 Sibyl Memory A memory that survives the session."
+    },
+    {
+      "fact_id": "fact-0496",
+      "claim_id": "claim-0502",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Live Graph-structured, file-based memory an agent queries like a database, not a guess."
+    },
+    {
+      "fact_id": "fact-0497",
+      "claim_id": "claim-0504",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "The highest-scoring file-based system on the leaderboard."
+    },
+    {
+      "fact_id": "fact-0498",
+      "claim_id": "claim-0505",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "pip install 'sibyl-memory-cli[mcp]' Read the docs → 02 Sibyl Sovereign Compliance you can prove."
+    },
+    {
+      "fact_id": "fact-0499",
+      "claim_id": "claim-0509",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Talk to us about Sovereign → 03 Living Graph Networks A living memory agents and people think in together."
+    },
+    {
+      "fact_id": "fact-0500",
+      "claim_id": "claim-0510",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "On the horizon Living Graph Networks is the next step past static storage: one shared, living memory that agents and humans plug into just as easily."
+    },
+    {
+      "fact_id": "fact-0501",
+      "claim_id": "claim-0513",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Still file-based, still no vectors."
+    },
+    {
+      "fact_id": "fact-0502",
+      "claim_id": "claim-0521",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Sibyl retrieved 350/350 on an average of 2 rows per query."
+    },
+    {
+      "fact_id": "fact-0503",
+      "claim_id": "claim-0524",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Memory is live and public today."
+    },
+    {
+      "fact_id": "fact-0504",
+      "claim_id": "claim-0526",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "technology",
+      "confidence": "low",
+      "text": "Install Now → Browse Products Partnerships, bespoke deployments, and research collaborations: [email protected] SIBYL LABS LLC."
+    },
+    {
+      "fact_id": "fact-0505",
+      "claim_id": "claim-0078",
+      "source_id": "source-29bb0c7f778e",
+      "source_url": "https://hack.sibyllabs.org/leaderboard",
+      "priority": "low",
+      "fact_type": "timeline",
+      "confidence": "low",
+      "text": "Standings appear after judging closes on Sep 12."
+    },
+    {
+      "fact_id": "fact-0506",
+      "claim_id": "claim-0514",
+      "source_id": "source-f93cc71acefa",
+      "source_url": "https://sibyllabs.org/",
+      "priority": "low",
+      "fact_type": "timeline",
+      "confidence": "low",
+      "text": "Early research · no timeline yet Same substrate underneath all three."
+    }
+  ]
+}
