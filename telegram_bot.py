@@ -6,6 +6,7 @@ import os
 import re
 import subprocess
 import threading
+import urllib.error
 import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -17,12 +18,20 @@ TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 ALLOWED_USER_ID = os.environ.get("TELEGRAM_ALLOWED_USER_ID", "").strip()
 WEBHOOK_SECRET = os.environ.get("TELEGRAM_WEBHOOK_SECRET", "").strip()
 PORT = int(os.environ.get("PORT", "10000"))
-# Render's public URL is stable for this service. An explicit default prevents
-# webhook setup from depending on an optional platform environment variable.
-PUBLIC_URL = os.environ.get(
-    "TELEGRAM_WEBHOOK_URL",
-    os.environ.get("RENDER_EXTERNAL_URL", "https://hackathon-product-finder.onrender.com"),
-).rstrip("/")
+
+# Use Render's actual public service URL by default. If TELEGRAM_WEBHOOK_URL is
+# supplied, it must be a plain URL (not Markdown such as [url](url)).
+PUBLIC_URL = os.environ.get("TELEGRAM_WEBHOOK_URL", "").strip()
+if not PUBLIC_URL:
+    PUBLIC_URL = os.environ.get(
+        "RENDER_EXTERNAL_URL", "https://hackathon-product-finder.onrender.com"
+    ).strip()
+# Be defensive against accidentally pasted Markdown URLs in Render env vars.
+MARKDOWN_URL = re.fullmatch(r"\[([^\]]+)\]\((https?://[^)]+)\)", PUBLIC_URL)
+if MARKDOWN_URL:
+    PUBLIC_URL = MARKDOWN_URL.group(2)
+PUBLIC_URL = PUBLIC_URL.rstrip("/")
+
 API = f"https://api.telegram.org/bot{TOKEN}"
 URL_RE = re.compile(r"^https?://[^\s]+$", re.IGNORECASE)
 job_lock = threading.Lock()
@@ -31,8 +40,14 @@ job_lock = threading.Lock()
 def api(method, payload=None, timeout=35):
     data = urllib.parse.urlencode(payload or {}).encode()
     request = urllib.request.Request(f"{API}/{method}", data=data)
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(
+            f"Telegram API {method} returned HTTP {exc.code}: {body}"
+        ) from exc
 
 
 def send_message(chat_id, text):
@@ -111,7 +126,6 @@ def summarize(url):
 def worker(chat_id, url):
     try:
         send_message(chat_id, "🔎 Starting evidence collection and product-fit analysis...\n\nThis can take a few minutes because the full research pipeline is running.")
-        # run_hackathon.sh is a Python entrypoint despite its historical .sh name.
         result = subprocess.run(
             ["python3", str(PIPELINE), url],
             cwd=ROOT,
@@ -228,6 +242,7 @@ def configure_webhook():
     if WEBHOOK_SECRET:
         payload["secret_token"] = WEBHOOK_SECRET
 
+    print(f"Configuring Telegram webhook: {webhook_url}")
     try:
         me = api("getMe")
         print(f"Telegram bot authenticated: {me}")
