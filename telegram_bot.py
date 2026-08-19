@@ -5,6 +5,7 @@ Secrets are read only from environment variables:
   TELEGRAM_BOT_TOKEN
   TELEGRAM_ALLOWED_USER_ID
   TELEGRAM_WEBHOOK_SECRET (optional)
+  TELEGRAM_WEBHOOK_URL (optional; otherwise Render's public URL is used)
   PORT (provided by Render)
 
 The bot accepts a hackathon URL, runs the existing pipeline, and sends back
@@ -16,6 +17,7 @@ import os
 import re
 import subprocess
 import threading
+import urllib.error
 import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -35,8 +37,16 @@ job_lock = threading.Lock()
 def api(method, payload=None, timeout=35):
     data = urllib.parse.urlencode(payload or {}).encode()
     request = urllib.request.Request(f"{API}/{method}", data=data)
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(
+            f"Telegram API {method} returned HTTP {exc.code}: {body}"
+        ) from exc
+    except urllib.error.URLError as exc:
+        raise RuntimeError(f"Telegram API {method} connection failed: {exc}") from exc
 
 
 def send_message(chat_id, text):
@@ -116,7 +126,7 @@ def worker(chat_id, url):
     try:
         send_message(chat_id, "🔎 Starting evidence collection and product-fit analysis...\n\nThis can take a few minutes because the full research pipeline is running.")
         result = subprocess.run(
-            ["python3", str(PIPELINE), url],
+            ["bash", str(PIPELINE), url],
             cwd=ROOT,
             capture_output=True,
             text=True,
@@ -208,18 +218,44 @@ class Handler(BaseHTTPRequestHandler):
         print(fmt % args)
 
 
+def get_public_webhook_url():
+    explicit = os.environ.get("TELEGRAM_WEBHOOK_URL", "").strip().rstrip("/")
+    if explicit:
+        return explicit
+
+    render_url = os.environ.get("RENDER_EXTERNAL_URL", "").strip().rstrip("/")
+    if render_url:
+        return render_url
+
+    hostname = os.environ.get("RENDER_EXTERNAL_HOSTNAME", "").strip()
+    if hostname:
+        return f"https://{hostname}"
+
+    return ""
+
+
 def configure_webhook():
-    public_url = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
+    public_url = get_public_webhook_url()
     if not public_url:
-        print("RENDER_EXTERNAL_URL not set; webhook will not be configured automatically.")
-        return
-    payload = {"url": f"{public_url}/telegram/webhook"}
+        raise RuntimeError(
+            "No public webhook URL found. Set TELEGRAM_WEBHOOK_URL to the full "
+            "https://<your-service>.onrender.com URL."
+        )
+    parsed = urllib.parse.urlparse(public_url)
+    if parsed.scheme != "https" or not parsed.netloc:
+        raise RuntimeError(
+            f"Invalid webhook URL: {public_url!r}. Telegram requires a public HTTPS URL."
+        )
+
+    webhook_url = f"{public_url}/telegram/webhook"
+    payload = {"url": webhook_url}
     if WEBHOOK_SECRET:
         payload["secret_token"] = WEBHOOK_SECRET
+
     result = api("setWebhook", payload)
     if not result.get("ok"):
         raise RuntimeError(f"Telegram setWebhook failed: {result}")
-    print(f"Telegram webhook configured: {payload['url']}")
+    print(f"Telegram webhook configured: {webhook_url}")
 
 
 def main():
@@ -230,9 +266,15 @@ def main():
     if not PIPELINE.exists():
         raise SystemExit(f"Pipeline not found: {PIPELINE}")
 
-    configure_webhook()
     server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
     print(f"Telegram hackathon bot listening on :{PORT}")
+
+    try:
+        configure_webhook()
+    except Exception as exc:
+        print(f"WARNING: webhook configuration failed: {exc}")
+        print("The HTTP server will remain available so the exact configuration can be fixed without a crash loop.")
+
     server.serve_forever()
 
 
