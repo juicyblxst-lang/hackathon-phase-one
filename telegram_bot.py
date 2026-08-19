@@ -17,6 +17,12 @@ TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 ALLOWED_USER_ID = os.environ.get("TELEGRAM_ALLOWED_USER_ID", "").strip()
 WEBHOOK_SECRET = os.environ.get("TELEGRAM_WEBHOOK_SECRET", "").strip()
 PORT = int(os.environ.get("PORT", "10000"))
+# Render's public URL is stable for this service. An explicit default prevents
+# webhook setup from depending on an optional platform environment variable.
+PUBLIC_URL = os.environ.get(
+    "TELEGRAM_WEBHOOK_URL",
+    os.environ.get("RENDER_EXTERNAL_URL", "https://hackathon-product-finder.onrender.com"),
+).rstrip("/")
 API = f"https://api.telegram.org/bot{TOKEN}"
 URL_RE = re.compile(r"^https?://[^\s]+$", re.IGNORECASE)
 job_lock = threading.Lock()
@@ -105,8 +111,9 @@ def summarize(url):
 def worker(chat_id, url):
     try:
         send_message(chat_id, "🔎 Starting evidence collection and product-fit analysis...\n\nThis can take a few minutes because the full research pipeline is running.")
+        # run_hackathon.sh is a Python entrypoint despite its historical .sh name.
         result = subprocess.run(
-            ["bash", str(PIPELINE), url],
+            ["python3", str(PIPELINE), url],
             cwd=ROOT,
             capture_output=True,
             text=True,
@@ -177,6 +184,14 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
             return
+        if self.path == "/telegram/webhook":
+            body = b"Telegram webhook endpoint is configured for POST requests.\n"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
         self.send_response(404)
         self.end_headers()
 
@@ -208,22 +223,17 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def configure_webhook():
-    public_url = os.environ.get("TELEGRAM_WEBHOOK_URL", "").rstrip("/")
-    if not public_url:
-        public_url = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
-    if not public_url:
-        print("ERROR: No public URL configured; Telegram webhook cannot be configured.")
-        return False
-
-    webhook_url = f"{public_url}/telegram/webhook"
+    webhook_url = f"{PUBLIC_URL}/telegram/webhook"
     payload = {"url": webhook_url}
     if WEBHOOK_SECRET:
         payload["secret_token"] = WEBHOOK_SECRET
 
     try:
+        me = api("getMe")
+        print(f"Telegram bot authenticated: {me}")
         result = api("setWebhook", payload)
     except Exception as exc:
-        print(f"ERROR: Telegram setWebhook request failed: {exc}")
+        print(f"ERROR: Telegram API request failed: {exc}")
         return False
 
     print(f"Telegram setWebhook response: {result}")
@@ -252,9 +262,12 @@ def main():
     if not PIPELINE.exists():
         raise SystemExit(f"Pipeline not found: {PIPELINE}")
 
-    configure_webhook()
+    if not configure_webhook():
+        raise SystemExit("Telegram webhook configuration failed; refusing to start without a working webhook.")
+
     server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
     print(f"Telegram hackathon bot listening on :{PORT}")
+    print(f"Telegram webhook endpoint: {PUBLIC_URL}/telegram/webhook")
     server.serve_forever()
 
 
