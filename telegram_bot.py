@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Telegram interface for the hackathon product-discovery pipeline.
+"""Telegram webhook interface for the hackathon product-discovery pipeline.
 
-Secrets are intentionally read from environment variables and never stored in
-this repository:
+Secrets are read only from environment variables:
   TELEGRAM_BOT_TOKEN
   TELEGRAM_ALLOWED_USER_ID
+  TELEGRAM_WEBHOOK_SECRET (optional)
+  PORT (provided by Render)
 
-Run locally with:
-  TELEGRAM_BOT_TOKEN='...' TELEGRAM_ALLOWED_USER_ID='...' python3 telegram_bot.py
+The bot accepts a hackathon URL, runs the existing pipeline, and sends back
+its product/engineering/verification summary.
 """
 
 import json
@@ -15,15 +16,17 @@ import os
 import re
 import subprocess
 import threading
-import time
 import urllib.parse
 import urllib.request
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 PIPELINE = ROOT / "run_hackathon.sh"
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 ALLOWED_USER_ID = os.environ.get("TELEGRAM_ALLOWED_USER_ID", "").strip()
+WEBHOOK_SECRET = os.environ.get("TELEGRAM_WEBHOOK_SECRET", "").strip()
+PORT = int(os.environ.get("PORT", "10000"))
 API = f"https://api.telegram.org/bot{TOKEN}"
 URL_RE = re.compile(r"^https?://[^\s]+$", re.IGNORECASE)
 job_lock = threading.Lock()
@@ -37,7 +40,6 @@ def api(method, payload=None, timeout=35):
 
 
 def send_message(chat_id, text):
-    # Telegram message limit is 4096 characters. Keep responses comfortably below it.
     for start in range(0, len(text), 3900):
         api("sendMessage", {"chat_id": str(chat_id), "text": text[start:start + 3900]})
 
@@ -49,7 +51,7 @@ def valid_url(value):
 
 def run_dir_for(url):
     parsed = urllib.parse.urlparse(url)
-    return ROOT / "runs" / f"hack-{parsed.netloc.replace('.', '-')}"
+    return ROOT / "runs" / f"hack-{parsed.netloc.replace('.', '-') }"
 
 
 def load_json(path):
@@ -82,7 +84,6 @@ def summarize(url):
         "Product features:",
     ]
     lines.extend(f"• {item}" for item in features[:8])
-
     lines += ["", "Engineering tasks:"]
     lines.extend(f"• {item}" for item in engineering[:8])
 
@@ -104,7 +105,7 @@ def summarize(url):
     lines += [
         "",
         f"Validated requirements: {requirement_count}",
-        f"Artifacts: {run_dir}",
+        f"Artifacts: {run_dir.relative_to(ROOT)}",
         "",
         "Send another hackathon URL to analyze it.",
     ]
@@ -127,7 +128,7 @@ def worker(chat_id, url):
             return
         send_message(chat_id, summarize(url))
     except subprocess.TimeoutExpired:
-        send_message(chat_id, "⏱️ The analysis exceeded the 15-minute limit. The run may still contain partial evidence; check the run directory on the machine.")
+        send_message(chat_id, "⏱️ The analysis exceeded the 15-minute limit.")
     except Exception as exc:
         send_message(chat_id, f"❌ Bot error: {exc}")
     finally:
@@ -144,7 +145,6 @@ def handle_update(update):
 
     if not chat_id:
         return
-
     if ALLOWED_USER_ID and user_id != ALLOWED_USER_ID:
         send_message(chat_id, "⛔ This bot is private.")
         return
@@ -153,9 +153,8 @@ def handle_update(update):
         send_message(
             chat_id,
             "Hackathon Product Finder\n\n"
-            "Paste a hackathon URL here. I will run the existing evidence pipeline, "
-            "extract requirements, generate a product candidate, map it to engineering "
-            "tasks, and report verification gaps.\n\n"
+            "Paste a hackathon URL. I will run the evidence pipeline, extract requirements, "
+            "generate a product candidate, map it to engineering work, and report verification gaps.\n\n"
             "Example:\nhttps://example.com/hackathon",
         )
         return
@@ -168,8 +167,59 @@ def handle_update(update):
         send_message(chat_id, "⏳ An analysis is already running. I’ll finish that one before starting another.")
         return
 
-    thread = threading.Thread(target=worker, args=(chat_id, text), daemon=True)
-    thread.start()
+    threading.Thread(target=worker, args=(chat_id, text), daemon=True).start()
+
+
+class Handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == "/health":
+            body = b"ok"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        self.send_response(404)
+        self.end_headers()
+
+    def do_POST(self):
+        if self.path != "/telegram/webhook":
+            self.send_response(404)
+            self.end_headers()
+            return
+        if WEBHOOK_SECRET and self.headers.get("X-Telegram-Bot-Api-Secret-Token", "") != WEBHOOK_SECRET:
+            self.send_response(403)
+            self.end_headers()
+            return
+
+        length = int(self.headers.get("Content-Length", "0"))
+        try:
+            update = json.loads(self.rfile.read(length).decode("utf-8"))
+            threading.Thread(target=handle_update, args=(update,), daemon=True).start()
+        except Exception as exc:
+            print(f"Webhook error: {exc}")
+
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"ok")
+
+    def log_message(self, fmt, *args):
+        print(fmt % args)
+
+
+def configure_webhook():
+    public_url = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
+    if not public_url:
+        print("RENDER_EXTERNAL_URL not set; webhook will not be configured automatically.")
+        return
+    payload = {"url": f"{public_url}/telegram/webhook"}
+    if WEBHOOK_SECRET:
+        payload["secret_token"] = WEBHOOK_SECRET
+    result = api("setWebhook", payload)
+    if not result.get("ok"):
+        raise RuntimeError(f"Telegram setWebhook failed: {result}")
+    print(f"Telegram webhook configured: {payload['url']}")
 
 
 def main():
@@ -180,20 +230,10 @@ def main():
     if not PIPELINE.exists():
         raise SystemExit(f"Pipeline not found: {PIPELINE}")
 
-    print("Telegram hackathon bot running...")
-    offset = None
-    while True:
-        try:
-            payload = {"timeout": 25}
-            if offset is not None:
-                payload["offset"] = offset
-            result = api("getUpdates", payload, timeout=35)
-            for update in result.get("result", []):
-                offset = update["update_id"] + 1
-                handle_update(update)
-        except Exception as exc:
-            print(f"Polling error: {exc}")
-            time.sleep(3)
+    configure_webhook()
+    server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
+    print(f"Telegram hackathon bot listening on :{PORT}")
+    server.serve_forever()
 
 
 if __name__ == "__main__":
