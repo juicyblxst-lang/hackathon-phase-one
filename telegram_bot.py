@@ -1,16 +1,5 @@
 #!/usr/bin/env python3
-"""Telegram webhook interface for the hackathon product-discovery pipeline.
-
-Secrets are read only from environment variables:
-  TELEGRAM_BOT_TOKEN
-  TELEGRAM_ALLOWED_USER_ID
-  TELEGRAM_WEBHOOK_SECRET (optional)
-  TELEGRAM_WEBHOOK_URL (optional; otherwise Render's public URL is used)
-  PORT (provided by Render)
-
-The bot accepts a hackathon URL, runs the existing pipeline, and sends back
-its product/engineering/verification summary.
-"""
+"""Telegram webhook interface for the hackathon product-discovery pipeline."""
 
 import json
 import os
@@ -145,7 +134,10 @@ def handle_update(update):
     text = (message.get("text") or "").strip()
 
     if not chat_id:
+        print("Telegram update without chat_id")
         return
+    print(f"Telegram update received: user_id={user_id}, chat_id={chat_id}, text={text[:80]!r}")
+
     if ALLOWED_USER_ID and user_id != ALLOWED_USER_ID:
         send_message(chat_id, "⛔ This bot is private.")
         return
@@ -173,10 +165,14 @@ def handle_update(update):
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
-        if self.path == "/health":
-            body = b"ok"
+        if self.path in {"/", "/health"}:
+            body = (
+                b"Hackathon Product Finder is running.\n"
+                b"Telegram webhook endpoint: /telegram/webhook\n"
+                b"Health: /health\n"
+            )
             self.send_response(200)
-            self.send_header("Content-Type", "text/plain")
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
             self.wfile.write(body)
@@ -190,6 +186,7 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             return
         if WEBHOOK_SECRET and self.headers.get("X-Telegram-Bot-Api-Secret-Token", "") != WEBHOOK_SECRET:
+            print("Rejected webhook request: bad secret token")
             self.send_response(403)
             self.end_headers()
             return
@@ -197,6 +194,7 @@ class Handler(BaseHTTPRequestHandler):
         length = int(self.headers.get("Content-Length", "0"))
         try:
             update = json.loads(self.rfile.read(length).decode("utf-8"))
+            print("Webhook POST received")
             threading.Thread(target=handle_update, args=(update,), daemon=True).start()
         except Exception as exc:
             print(f"Webhook error: {exc}")
@@ -214,20 +212,36 @@ def configure_webhook():
     if not public_url:
         public_url = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
     if not public_url:
-        print("No public URL configured; webhook will not be configured automatically.")
-        return
-    payload = {"url": f"{public_url}/telegram/webhook"}
+        print("ERROR: No public URL configured; Telegram webhook cannot be configured.")
+        return False
+
+    webhook_url = f"{public_url}/telegram/webhook"
+    payload = {"url": webhook_url}
     if WEBHOOK_SECRET:
         payload["secret_token"] = WEBHOOK_SECRET
+
     try:
         result = api("setWebhook", payload)
     except Exception as exc:
-        print(f"WARNING: webhook configuration failed: {exc}")
-        return
+        print(f"ERROR: Telegram setWebhook request failed: {exc}")
+        return False
+
+    print(f"Telegram setWebhook response: {result}")
     if not result.get("ok"):
-        print(f"WARNING: Telegram setWebhook failed: {result}")
-        return
-    print(f"Telegram webhook configured: {payload['url']}")
+        return False
+
+    try:
+        info = api("getWebhookInfo")
+        safe = info.get("result", {})
+        print(
+            "Telegram webhook configured: "
+            f"url={safe.get('url', '')!r} "
+            f"pending_updates={safe.get('pending_update_count', 0)} "
+            f"last_error={safe.get('last_error_message', '')!r}"
+        )
+    except Exception as exc:
+        print(f"WARNING: Could not read Telegram webhook info: {exc}")
+    return True
 
 
 def main():
